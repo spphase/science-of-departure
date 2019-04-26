@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## 第十二届（2019）中国大学生计算机设计大赛西大启航·科幻作品
 
 You can use the [editor on GitHub](https://github.com/spphase/science-of-departure/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
