@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>航天历程</title>
+        <link rel="stylesheet" href="../css/font-awesome.min.css">
+        <link rel="stylesheet" href="../css/bootstrap.css">
+        <link rel="stylesheet" href="../css/aos.css">
+        <link rel="stylesheet" href="sub-css/start.css">
+        <!--[if lt IE 9]>
+          <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+        <![endif]-->
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+
+            body {
+                background-color: #6c8294;
+            }
+
+            .nav-tabs {
+                width: 100%;
+                /* height: ; */
+                margin-top: -20vh;
+            }
+
+            .nav-tabs > li {
+                float: left;
+                /* margin-bottom: -1px; */
+                width: 33.3%;
+                height: 20vh;
+                background-color: #9a90907a;
+                color: #91b3de;
+            }
+
+            .nav-tabs > li > a {
+                height: 100%;
+                color: #91b3de;
+                font-size: 3vmin;
+                text-align: center;
+                font-weight: 700;
+            }
+
+            .nav-tabs > li.active > a{
+                height: 100%;
+                background-color: #9a90907a;
+                border: 0px solid #ddd;
+                color: #91b3de;
+            }
+
+            .active > a:focus,
+            .nav-tabs > li.active > a:hover,
+            .nav-tabs > li:hover,
+            .nav-tabs > li > a:hover,
+            .nav-tabs > li > a:focus,
+            .nav-tabs > li > a:active  {
+                border: 0px solid #ddd;
+                background-color: #9a90907a;
+                color: #91b3de;
+            }
+
+            .breadcrumb {
+                text-align:center;
+                position: absolute;
+                width: 100%;
+                border-radius: 0;
+            }
+            .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+                color: #555;
+                cursor: default;
+                background-color: rgba(95, 95, 95, 0.26);
+                border: 1px solid #ddd;
+                border-bottom-color: transparent;
+                color: #fff;
+            }
+            @media (max-width:425px){
+                .nav-tabs {
+                    width: 100%;
+                    /* height: ; */
+                    margin-top: -8vh;
+                }
+
+                .nav-tabs > li {
+                    float: left;
+                    /* margin-bottom: -1px; */
+                    width: 33.3%;
+                    height: 8vh;
+                    background-color: #9a90907a;
+                    color: #91b3de;
+                }
+            }
+        </style>
+</head>
+<body>
+    <ol class="breadcrumb" style="text-align:center;position: static">
+        Your location:
+        <li><a href="../en-index.htm">Home</a></li>
+        <li><a href="public-en.html">Set Sail</a></li>
+        <li class="active">China's space development history</li>
+    </ol>
+    <div class="content">
+        <img src="../images/others/space-develop-en.jpg" alt="航天发展历程" class="img-responsive">
+        <div class="tab" role="tabpanel">
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#Section1" aria-controls="home" role="tab" data-toggle="tab">Aerospace overview since 1970</a></li>
+                    <li role="presentation"><a href="#Section2" aria-controls="profile" role="tab" data-toggle="tab">Manned space history</a></li>
+                    <li role="presentation"><a href="#Section3" aria-controls="messages" role="tab" data-toggle="tab">Three major milestones</a></li>
+                </ul>
+                <!-- Tab panes -->
+                <div class="tab-content tabs">
+                    <div role="tabpanel" class="tab-pane fade in active" id="Section1">
+                        <img src="../images/others/space-develop-his3-en.jpg" alt="60年航天概况" class="img-responsive">
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="Section2">
+                        <img src="../images/others/space-develop-mark-en.jpg" alt="载人航天历程" class="img-responsive">
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="Section3">
+                        <img src="../images/others/space-develop-his-en.jpg" alt="三大里程碑" class="img-responsive">
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <footer>
+            <i class="fa fa-copyright" aria-hidden="true">copyright2019&nbsp;&nbsp;GuangXi University—— team MOSS</i>
+    </footer>
+
+    <!-- 返回顶部按钮 -->
+    <div class="turnback">
+        <a href="#"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a>
+    </div>
+
+    <script src="../js/jquery-1.11.0.min.js"></script>
+   
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/aos.js"></script> <script src="../js/lazy-load&scrollup.js"></script>
+    <script>
+        $('#myTabs a').click(function (e) {
+            e.preventDefault()
+            $(this).tab('show')
+        })
+
+        $(window).scroll(
+		function()
+		{
+			if ($(window).scrollTop() <= 80) {
+			  $(".breadcrumb").css('position','absolute');
+			  
+		  }
+		  else if ($(window).scrollTop() > 200) {
+			  $(".breadcrumb").css('position','fixed');
+		  }
+	   });
+
+	$(".turnback").click(function()
+	{
+		$("html,body").animate({scrollTop:0},500);
+		$(this).css('display','none');
+	});
+    </script>
+    
+</body>
+</html>

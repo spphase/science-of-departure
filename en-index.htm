@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Science of Departure</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/index.css">
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+    <style>
+    .pub-body>span>img {
+        position: absolute;
+        width: 34vw;
+        height: auto;
+        top: 28vh;
+        transform: scale(1.7);
+        left: 34%;
+    }
+
+    .theme>img {
+        transform: scale(1.2);-o-transform: scale(1.2);-moz-transform: scale(1.2);-webkit-transform: scale(1.2);
+    }
+    .pub-body>span>img {
+            transform: scale(1.7)!important;-o-transform: scale(1.7)!important;-moz-transform: scale(1.7)!important;-webkit-transform: scale(1.7)!important;
+        }
+
+    @media (max-width:1024px){
+        .pub-body>span>img {
+            position: absolute;
+            width: 34vw;
+            height: auto;
+            top: 12vh;
+            transform: scale(1.7)!important;-o-transform: scale(1.7)!important;-moz-transform: scale(1.7)!important;-webkit-transform: scale(1.7)!important;
+            left: 34%;
+        }
+        .fade-text {
+            display: block;
+            z-index: 5;
+        }
+    }
+</style>
+</head>
+<body>    
+    <!-- 导航栏 -->
+        <nav class="navbar navbar-fixed-top ">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#"><img class="img-responsive" src="images/index/logo.png" alt="moss"></i></a>
+                    </div>
+                      
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="glyphicon glyphicon-home"></i>&nbsp;Home  <span class="caret"></span></a>
+                                <ul class="dropdown-menu" id="home">
+                                    <li><a href="#banner">Home</a></li>
+                                    <li><a href="#center">Set Sail</a></li>
+                                    <li><a href="#position">Pattern</a></li>
+                                    <li><a href="#goals">Oceans of Stars</a></li>
+                                    <li><a href="#speedup">Ahead Four</a></li>
+                                    <li><a href="#aboutus">About Us</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-plane" aria-hidden="true">&nbsp;Set Sail</i> <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="sub-pages/public-en.html#container">Space explore</a></li>
+                                        <li><a href="sub-pages/public-en.html#game">Space race in science-fiction</a></li>
+                                        <li><a href="sub-pages/public-en.html#develop">Go hand in hand</a></li>
+                                    </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-globe" aria-hidden="true">&nbsp;Pattern</i> <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                  <li><a href="sub-pages/position-en.html#sci-fiton">Localization</a></li>
+                                  <li><a href="sub-pages/position-en.html#based-sci">Basic scientific research</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-paper-plane-o" aria-hidden="true">&nbsp;Star sea</i> <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                      <li><a href="sub-pages/starsea-en.html">The film industry</a></li>
+                                      <li><a href="sub-pages/starsea-en.html#based-sci">New long march</a></li>
+                                      <li><a href="sub-pages/starsea-en.html#based">Private space company</a></li> 
+                                    </ul>
+                            </li>
+                            <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-rocket" aria-hidden="true">&nbsp;Ahead Four</i> <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="sub-pages/speedup-en.html#newtrip">New sailing</a></li>
+                                        <li><a href="sub-pages/speedup-en.html#think">Chinese thinking</a></li>
+                                        <li><a href="sub-pages/speedup-en.html#stars">Looking up the stars</a></li>
+                                        <li><a href="sub-pages/speedup-en.html#pub">Community with shared future for mankind</a></li>
+                                    </ul>
+                            </li>
+
+                            <li class="dropdown">
+                                <a href="#aboutus"><i class="fa fa-users" aria-hidden="true">&nbsp;About us</i></a>
+                            </li>
+                            <li class="dropdown english">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <i class="fa fa-language" aria-hidden="true"></i>&nbsp;language<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="index.htm">中文</a></li>
+                                    <li><a href="#banner" id="translate">English</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <!-- <form class="navbar-form navbar-right">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search">
+                            </div>
+                            <button type="submit" class="btn btn-default">Submit</button>
+                        </form> -->
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+        </nav>  
+    <!-- banner部分 -->
+        <div class="banner" id="banner">
+			<ul class="slidepicture">
+				<li class="banner-bg">
+                    <img src="images/index/banner-bg.jpg">
+                    <span class="theme">
+                        <img data-aos="zoom-in" data-src="images/index/theme-en.png" src="images/loading.gif" alt="启航·科幻"><br>
+                        <span data-aos="zoom-in-left">Science fiction was born with technology</span>
+                    </span>
+                </li>
+				<li class="banner-bg">
+                    <img src="images/index/newworld.jpg">
+                    <span class="newworld">
+                        <img data-aos="zoom-in" data-src="images/index/newworld-en.png" src="images/loading.gif" alt="新时代·新长征">
+                        <span data-aos="zoom-in-right">China's long march carrier rockets have
+                            made a historic leap of 300 launches, facing the spring breeze of the new era,
+                            with new dreams, start the new long march.</span>
+                    </span>
+                </li>
+                <li class="banner-bg">
+                    <img src="images/index/pub-body.jpg" class="body-bg">
+                    <span class="pub-body">
+                            <span data-aos="zoom-in-left">We must contribute more Chinese wisdom, China's programs, and China's power to the peaceful use of space by human beings and the promotion of the community of human destiny. ——Xi Jinping
+                                <img data-aos="zoom-in" src="images/index/pub-body-en.png" alt="人类命运共同体">
+                            </span>
+                        
+                        
+                    </span>
+                </li>
+            </ul>
+            <ul class="circle">
+                <li data-aos="zoom-in"><span class="timer"></span></li>
+                <li data-aos="zoom-in"><span></span></li>
+                <li data-aos="zoom-in"><span></span></li>
+            </ul>
+            <a class="button-fa" data-to="center"><i class="fa fa-angle-double-down" aria-hidden="true"></i></a>
+		</div>	    
+           
+        <!-- <div class="container"> -->
+             <!-- ================启程部分=============================== -->
+            <section class="row" id="center">
+                <div class="col-md-12">
+                    <div class="titler">
+                        <span data-aos="zoom-in">Set Sail</span><span class="pub-line"></span>
+                        <p data-aos="zoom-in-left">China is a latecomer to space exploration,
+                            also is the science fiction movie latecomer, In the movie.</p>
+                    </div>
+                    <div id="slider" data-aos="zoom-in">
+                       <div class="slide">
+                            <a href="sub-pages/public-en.html#background"><img class="diapo" src="images/loading.gif" data-src="images/index/history-en.jpg" alt=""></a>
+                            <div class="text">
+                                <span class="title">The road to space</span>
+                                This part shows China's current space history, historical achievements and major events. From the history of development to the breakthrough of cutting-edge science and technology, the Chinese people have been entrusted with the confidence to explore space, which has laid a confident foundation for the departure of domestic science fiction films.
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <a href="sub-pages/public-en.html#game"><img class="diapo" src="images/loading.gif" data-src="images/index/game-en.jpg" alt=""></a>
+                            <div class="text">
+                                <span class="title">Chinese Science fiction films enter the space race</span>
+                                Like the movie"The Wandering Earth", Chinese science fiction films are officially launched today. It shows the connotation and depth that is not found in the novel, and displays the attachment and affection for hometown and land in the eastern culture in the space scale. The really successful sci-fi movies look like historical movies, and this one does, with its weight, its vicissitudes, its history. A powerful country, the most forward in the culture is science fiction, the past is the United Kingdom, then the United States, now it is China's turn. – Cixin Liu, author of the"The Wandering Earth" novel
+                            </div>
+                        </div>
+                        <div class="slide">
+                                <a href="sub-pages/public-en.html#develop"><img class="diapo" src="images/loading.gif"data-src="images/index/develop-en.jpg" alt=""></a>
+                                <div class="text">
+                                    <span class="title">Go hand in hand</span>
+                                    National space such as progress of science and technology, the new discovered that science new thinking and new achievements and give a new imagination, science fiction and encourage young people into space in the form of popular culture, the benign interaction between the two, so sci-fi movies often is the public bonds associated with advanced science and technology, can guide people to love science.
+                                </div>
+                            </div>
+                         
+                    </div>
+                </div>       
+            </section>
+        <!-- ========================格局定位============== -->
+            <section id="position" class="row">
+                <div class="titler">
+                    <span data-aos="zoom-in">Pattern<span class="pub-line"></span></span>
+                    <p data-aos="zoom-in-left">Science fiction localization is the first problem of science fiction movies, and basic science is the foundation of science fiction works.</p>
+                </div>    
+
+                <div class="position-box">
+                    <div class="pos-cont">
+                        <a href="sub-pages/position-en.html#sci-fiton" data-aos="zoom-in">
+                            <i class="fa fa-grav" aria-hidden="true"></i>
+                            <h3>Science fiction localization</h3>
+                            <span class="text">The Chinese film market is increasingly prosperous, and science fiction movies are still very vacant. Commercial interests are currently making such subjects in an embarrassing situation. For a long time, Western science fiction movies occupied the main market of such subjects in China, and the Chinese audience's cognition of science fiction movies was deeply influenced by western science fiction thoughts. On this basis, a unique aesthetic habit was formed. However, the development of science fiction movies in China cannot completely copy the West. Therefore, how to achieve the perfect integration of science fiction and Chinese culture in the film is still a major problem, and it is also one of the main reasons for the stagnation of science fiction films in China.<br>——Shaanxi University of Science and Technology - Wang Meng</span>
+                        </a>       
+                    </div>
+                    <div class="pos-cont">
+                        <a href="sub-pages/position-en.html#based-sci" data-aos="zoom-in">
+                            <i class="fa fa-superpowers" aria-hidden="true"></i>
+                            <h3>Basic scientific research</h3>
+                            <span class="text">After the national economy develops and has a certain foundation, it will develop art, music, literature and science. People will look up to the sky at this time, explore what the world is going on, the fundamental composition of the universe, why we come and where we will come. go with? These explorations allow us to always have the motivation to pursue the unknown.</span>
+                        </a>                 
+                    </div>
+                </div>
+                
+            </section>
+        
+            <!-- =======================星辰大海========= -->
+            <section id="goals" class="row">
+                <div class="titler">
+                    <span data-aos="zoom-in">oceans of stars</span>
+                    <span data-aos="zoom-in" class="pub-line"></span>
+                    <p data-aos="zoom-in">My Conquest Is the Sea of Stars!</p>
+                </div> 
+                <div id="wrapper">
+                    <div id="left-side">
+                      <ul>
+                        <li data-aos="zoom-in" class="choose active">
+                          <div class="icon active">
+                            <i class="fa fa-cogs" aria-hidden="true"></i>
+                          </div>
+                          <h3>The film industry system</h3>
+                        </li>
+                        <li data-aos="zoom-in" class="pay">
+                          <div class="icon">
+                            <i class="fa fa-ravelry" aria-hidden="true"></i>
+                          </div>
+                          <h3>The long march of explore space</h3>
+                        </li>
+                        <li data-aos="zoom-in" class="wrap">
+                          <div class="icon">
+                            <i class="fa fa-rocket" aria-hidden="true"></i>
+                          </div>
+                          <h3>Private space company</h3>
+                        </li>
+                      </ul>
+                    </div>
+      
+                    <div id="border">
+                      <div id="line" class="one" data-aos="zoom-in"></div>
+                    </div>
+      
+                    <div id="right-side">
+                        <div class="first active" data-aos="zoom-in">    
+                            <a href="sub-pages/starsea-en.html#sci-fiton" class="goals-target">
+                                <div class="icon big">
+                                <!-- 图标 -->
+                                    <i class="fa fa-cogs" aria-hidden="true"></i>
+                                </div>
+                                <h1>Building a high industrial level film system</h1>
+                                <p>The level of foreign industry is extremely high. While our people have no idea. We need professionals, but there is no market for professionals to do this. We really do not have enough foundation, this is the problem of the environment. The general direction is advancing in a good direction, and talent in this field still needs to be accumulated slowly.  ——sheena magic - Ke Wang</p>
+                            </a>
+                        </div>
+
+                        <div class="second" data-aos="zoom-in">
+                            <a href="sub-pages/starsea-en.html#based-sci" class="goals-target">
+                                <div class="icon big">
+                                <i class="fa fa-ravelry" aria-hidden="true"></i>
+                                </div>
+                                <h1>New era __new dream __ new long march</h1>
+                                <p>Space exploration has no end. From April 24, 1970, when China successfully launched the dongfangghong 1 satellite on a long March 1 carrier rocket, to March 10, 2019, when the long March 3b carrier rocket lifted the zhongxing 6C satellite into space, China's long march rockets have made a historic leap of 300 launches.</p>
+                            </a>
+                        </div>
+
+                        <div class="third" data-aos="zoom-in"> 
+                            <a href="sub-pages/starsea-en.html#based" class="goals-target">
+                                 <div class="icon big">
+                                <i class="fa fa-rocket" aria-hidden="true"></i>
+                                </div>    
+                                <h1>Rise of private space company</h1>
+                                <p>Links pace company was established in 2014. After 2015, after 2015, , private rocket development into the fast track,I-Space,spacetrek, landSpace, oneSpace, galaxySpace, jzyjSpace, S-motor, Deep Blue Aerospace, Xinghe Power was established.</p>
+                            </a>
+                        </div>
+
+                    </div>
+                 </div>           
+            </section>
+        
+
+            <!-- ==========前进四============== -->
+            <section id="speedup">
+                    <div class="titler">
+                        <span data-aos="zoom-in">Ahead Four</span>
+                        <span data-aos="zoom-in" class="pub-line"></span>
+                        <p>Borrow the classic lines in the three-body problem, wish domestic science fiction and aerospace run neck and neck,inspire people from all walks of life into science,struggle for the ideal.</p>
+                    </div>  
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6 col-xs-12" data-aos="zoom-in">
+                            <div class="contents content-first">
+                                <i class="fa fa-space-shuttle" aria-hidden="true"></i>
+                                <span><a href="sub-pages/speedup-en.html#newtrip"><p>New sailing<span class="text-line"></span></p></a></span>
+                                <p class="fade-text">Create the civilization of human spaceflight, forge the monument of national science and technology.----China Aerospace Science and Technology Corporation.</p> 
+                                <a href="sub-pages/speedup-en.html#newtrip" class="wall"></a>
+                            </div>
+                            
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12" data-aos="zoom-in">
+                            <div class="contents content-second">
+                                    <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+                                <span><a href="sub-pages/speedup-en.html#think">Thinking about the future<span class="text-line"></span></a></span>
+                                <p class="fade-text">China's wisdom, China's solutions and China's strength</p> 
+                                <a href="sub-pages/speedup.html#think" class="wall"></a>
+                            </div>
+                            
+                                
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12" data-aos="zoom-in">
+                            <div class="contents content-third">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                <span><a href="sub-pages/speedup-en.html#stars">look up at the starlit sky<span class="text-line"></span></a></span>
+                                <p class="fade-text">Thoughts on the future of mankind and ultimate human thinking
+                                    community with shared future for mankind</p>
+                                <a href="sub-pages/speedup.html#stars" class="wall"></a>
+                            </div>
+ 
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12" data-aos="zoom-in">
+                            <div class="contents content-fourth">
+                                <i class="fa fa-life-ring" aria-hidden="true"></i>
+                                <span><a href="sub-pages/speedup-en.html#pub"> community with shared future for mankind<span class="text-line"></span></a></span>
+                                <p class="fade-text">Promoting the building of a community of Shared future for mankind</p>
+                                <a href="sub-pages/speedup-en.html#pub" class="wall"></a>
+                            </div>
+                            
+                        </div>
+                    </div>
+            </section>
+       
+            <!-- 关于我们 -->
+            <div class="row" id="aboutus">
+                    <div class="col-md-offset-2 col-md-8 col-xs-offset-2 col-xs-8">
+                        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                            <div class="panel panel-default" data-aos="zoom-in">
+                                <div class="panel-heading" role="tab" id="headingOne">
+                                    <h4 class="panel-title">
+                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            Master：Aibing Chen
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                    <div class="panel-body">
+                                        <span><img src="images/loading.gif" data-src="images/others/bing.jpg" alt="陈爱炳"></span>
+                                        <p>Hobbies：Web front end, science fiction, badminton<br>Regardless of where the final result leads history, we decided to choose hope!</p>
+                                    </div>
+                                </div>
+                            </div>
+             
+                            <div class="panel panel-default" data-aos="zoom-in">
+                                <div class="panel-heading" role="tab" id="headingTwo">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            Master：Jiayuan Jiang
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                    <div class="panel-body">
+                                        <span><img src="images/loading.gif" data-src="images/others/yuan.jpg" alt="蒋佳圆"></span>
+                                        <p>Hobbies: painting, design, travel, riding, skateboarding<br>Born to death!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <!-- vw,move.js,延迟加载，视觉差页尾 -->
+
+            <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel" id="Modal1">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="gridSystemModalLabel">Special thanks to the author of the literature (including some content from the network)</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-sm-9">
+                                    <p data-aos="zoom-in">
+                                            [1]<strong>流浪地球制作手记——朔方</strong><br>
+                                            [2]高崇武.关于民营企业发射运载火箭的思考[J].国防科技工业,2019(03):28-32. <br>
+                                            [3].贺萌,陆静.中国航天企业国际标准化的实施与发展[J].航天标准化,2019(01):27-33.<br>
+                                            [4] 五十载春秋上下求索 三百次发射铸就辉煌[N]. 中国航天报,2019-03-15(002).<br>
+                                            [5]. 闫越.我的航天体验之旅[J].军事文摘,2019(06):63.<br>
+                                            [6].新时代 新梦想 新长征[N]. 中国航天报,2019-03-11(001).<br>
+                                            [7]清华航院研究生“大国起飞”就业实践探索中国航天新征程[J].中国大学生就业,2019(05):32.<br>
+                                            [8].贺萌,陆静.中国航天企业国际标准化的实施与发展[J].航天标准化,2019(01):27-33.<br>
+                                             [9]五十载春秋上下求索 三百次发射铸就辉煌[N]. 中国航天报,2019-03-15(002).<br>
+                                            [10]闫越.我的航天体验之旅[J].军事文摘,2019(06):63.<br>
+                                            [11]. 王萌.浅析国产硬核科幻片《流浪地球》的成功因素[J].大众文艺,2019(05):156-157.<br>
+                                            [12].新时代 新梦想 新长征[N]. 中国航天报,2019-03-11(001).<br>
+                                            [13].《流浪地球》2月票房超44亿元:开启中国科幻电影创作新征程[J].现代电影技术,2019(03):62-63.<br>
+                                            [14].清华航院研究生“大国起飞”就业实践探索中国航天新征程[J].中国大学生就业,2019(05):32.<br> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                        </div>
+                        </div><!-- /.modal-content -->
+                    </div><!-- /.modal-dialog -->
+                </div><!-- /.modal -->
+
+                <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel" id="Modal2">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="gridSystemModalLabel">2019年（第12届）中国大学生计算机设计大赛《启航·科幻》主题网站技术说明文档</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <p data-aos="zoom-in">
+                                        前言<br>
+                                        科幻的诞生，是伴随科技而来的，而科技发展则是当代中国的典型特征。本网站立足我国航天科技飞速发展，将当下热点以流浪地球为代表的中国科幻电影联系在一起，探究国家科技发展与流行科幻作品的联系，畅想我国航天与科幻互为佳话的未来，以大学生的视角去看待中国未来尖端领域与科学幻想的腾飞，旨在以更现代化的方式，为更多人心中播种科幻的种子，鼓励人们热爱科学、崇尚科学。<br>
+                                        <br>
+                                        1.	    建站目的及功能定位<br>
+
+                                        1.1 建站目的<br>
+                                        在新时代大背景下，科技创新日新月异，尤其是我国航天领域不断取得突破，使我国迈向航天强国。让我们以习近平新时代中国特色社会主义思想引导，关注时下社会焦点，感受国家发展动脉。大学生是受过高等教育的人才，对国家大事有着自我的看法与责任感，作为年轻一代，肩负着祖国未来生态环境建设的重任。中国科幻文艺在过去几年的时间里从到刘慈欣等知名科幻作家先后夺得雨果奖等科幻领域的世界性奖项，我国的科幻文艺开始逐渐走出相对小众的圈层，越来越火，越来越主流化，直到《流浪地球》，已经具备可以引发全民性爆点话题的能量。<br>
+                                        1.2 网站功能定位<br>
+                                        根据网站的内容和功能，网站定位为宣传性、互动性、学习性的展示平台。<br>
+                                        2、    网站内容规划<br>
+                                        
+                                        2.1 网站名称：《启航·科幻》<br>
+                                        2.2 网站主题<br>
+                                        本网站主题为“启航·科幻”，其中隐含中国航天和国产科幻两个主体，副标题为“新时代、新征程”，是立足于我国长征系列运载火箭实现了300次发射的历史性跨越，借助这两者的关系，探究未来太空竞争在真实航天领域与中国科幻发展，及其中包含的社会主义价值观念，中华传统理念。<br>
+                                        2.3 网站语言<br>
+                                        简体中文/English（敬请期待）<br>
+                                        
+                                        2.4 网站风格<br>
+                                        网站的整体风格主要以近年来比较流行的扁平动画风格为主，从而使得网站设计风格能够跟随主流，图片大多以星空的普蓝色系为主调，灵活运用渐变和曲线在空间和视觉上制造科幻感，这种呼应主题的表达方式能够使人更容易理解和接受。
+                                        
+                                        2.5 网站内容<br>
+                                        网站主要以“科幻”为中心进行扩展，首先在首页展示了本站的主题，在分页中分别从其他角度对科幻事业的发展和影响结合一些实际事件和案例进行了解读。探讨了中国航天事业和中国文化背景对中国科幻事业发展的影响。另外还结合了一些外国的成功案例与中国科幻事业的发展做出对比，从而使得读者对中国科幻事业有一个更为全面而科学的认识。在最后的板块开启人们对宇宙的思考和人类未来的思考，从而激发读者对科学，对未来，对宇宙的向往。<br>
+                                        2.6 网站思维导图<br>
+                                        
+                                         
+                                        图2-1 网站思维导图<br>
+                                                                                                    
+                                        3、    网页设计<br>
+                                        3.1 首页设计<br>
+                                        首页以流行的渐变色和极简风格呈现，以轮播图形式体现主题和副标题，让浏览者能对网站主旨概念有大致的了解。主页的背景主要采用扁平化的星空的背景加上行的曲线渐变和星球山川的结合在视觉营造出宇宙的神秘而魔幻的感觉。横向导航栏模块分别是：首页、启程、格局定位、星辰大海、前进四、关于我们。通过点击展开各模块包含的内容，方便浏览者在各部分内容间随时自由跳转。在不同的图片中融入中国航天事业的元素。其中的文字体现出一种科幻的效果，并在各个页面适当加了一个动画效果，动态与静态的结合，让网站看起来更有活力。底部小块可作为切换按钮，并类似进度条在三秒内变化另一颜色长度为100%。以及上下浮动的双向下箭头，点击可跳转至下一模块所在位置。右上角为音乐播放按钮，设置为默认循环播放，点击可停止/播放背景音乐。<br>
+                                         
+                                         
+                                        图3-1 网站首页banner效果图<br>
+                                        3.2 分模块设计<br>
+                                        3.2.1 启程<br>
+                                        该板块展示的是“中国航天事业与科幻电影的结合”，分为“航天之路”、“科幻电影加入太空竞赛”和“齐头并进”三个模块。这部分将中国航天事业与科幻事业相联系，并且起到一个科普作用，介绍了基本航天知识和中国科幻电影发展的概况。每一个板块都采用了同系列扁平渐变风格的装饰，使得页面统一完整。技术上用水平手风琴效果呈现，鼠标移动至不同图片间可切换显示三个主题，点击进入详细了解。<br>
+                                         
+                                                                          
+                                        3.2.2 格局定位<br>
+                                        这板块主要探讨“基础科学与文明对科幻的影响”，分为“科幻本土化”和“基础科学研究”两个板块，旨在探究基础科学与文明对科幻事业起到的地基作用。在基础科学和前沿科学的框架下发展科幻事业，将中国优秀传统文化精神融入科幻事业的发展中，又从科幻作品中体现中国优秀传统精神。多角度解读基础科学、社会文明和科幻间的关系，强调科学力量和文化力量的在格局定位中的重要性。两个板块一左一右，采用极简的渐变背景，大方明了，就如格局定位般需要明确。可在标题点击进入详细页面。<br>
+                                         
+                                        3.2.3 星辰大海<br>
+                                        本版块展示“高水准电影工业新体系和航天事业新发展”，分为“电影工业体系”、“航天新长征”和“私营航天”三个部分。分别介绍了一些国外先进的科幻电影体系模式与其的发展，中国航天事业取得长足的进步和国内一些私营企业也同样致力于航天发展事业。页面以星海为背景，每个模块配有暗色调图片显示出当下科幻电影与航天事业发展就如漆黑宇宙中正在燃起的片片星云，星火燎原，形势一片大好。实现效果为垂直选项卡切换，总体了解各模块内容，点击右栏内容可进入详细页面。<br>
+                                         
+                                        
+                                        3.2.4  前进四<br>
+                                        本版块借用《三体》中经典台词命名，主要是引发读者对人类未来和宇宙的思考，分为“航行新长征”、“未来思考”、“仰望星空”和“人类命运共同体”四个部分。展现中国航天技术新发展，以中国式的思维思考中国航天与科幻新未来，开展思维畅想宇宙，在宇宙角度探讨人类社会发展。整体版面以暗色调为主，稳重深沉，创造深度思考氛围。本模块分为四个入口进入具体页面。<br>
+                                         
+                                        
+                                        
+                                        3.2.5 关于我们<br>
+                                        本模块使用手风琴效果把主创成员基本信息囊括在其中。<br>
+                                         
+                                       
+                                        
+                                        
+                                        4、技术难点及创新点<br>
+                                        4.1 技术难点<br>
+                                        1.	我们主要采用静态网页开发，使用bootstrap前端开发框架、jQuery库、以及动效技术，完成布局排版，使之更加美观，体现主题；<br>
+                                        2、通过javascript图片懒加载技术加快访问速度，当滚动条滚动到附近区域再加载大图片，减少等待时间；<br>
+                                        3、不同模块间使用多种展现方式，减少重复可视化效果。<br>
+                                        4.2 创新点<br>
+                                        1、 通过视窗单位设置容器宽高，通过精准计算实现响应式；<br>
+                                        2、 布局合理，条理清晰，栅格化设计，内容页整洁简约，让浏览者在短时间内能跳转到自己想了解的内容的位置。<br>
+                                        3、 通过javascript图片懒加载技术加快访问速度，当滚动条滚动到附近区域再加载大图片，减少等待时间。<br>
+                                        
+                                        5、网站访问和网页浏览<br>
+                                        （1）网站网址：敬请期待<br>
+                                        （2）网页分辨率：1920×1080px；  <br>
+                                        （3）浏览器：为完美显示网页的可视化效果及兼容视窗单位，建议使用谷歌内核的浏览器。推荐使用谷歌浏览器浏览，其他浏览器推荐使用极速模式或使用IE 11以上版本浏览。<br>
+                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                        </div>
+                        </div><!-- /.modal-content -->
+                    </div><!-- /.modal-dialog -->
+                </div><!-- /.modal -->
+            
+
+        </div>
+
+       <!-- 底部版权部分 -->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="container">
+					<div class="col-md-3 col-md-offset-1 col-sm-6 col-xs-6 " data-aos="zoom-in">
+						<div class="container-fluid about-us">
+							<a data-toggle="modal" data-target="#Modal2" class="about_us">
+                                <i class="fa fa-file-text-o" aria-hidden="true"></i>
+								<h4 class="foot-text" data-toggle="tooltip" data-placement="top" title="read it now">readme inline</h4>
+							</a>
+						</div>
+						<div class="container-fluid about-us">
+							<a href="readme.docx" data-toggle="tooltip" data-placement="top" title="click to download">
+                                <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                                <h4 class="foot-text">download readme</h4>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 col-xs-6" data-aos="zoom-in">
+						<h4 class="foot-text">Links</h4>
+						<a href="http://www.bootcss.com/" class="about_us" data-toggle="tooltip" data-placement="right" title="we based on bootstrap3" target="_blank">bootstrap</a><br>
+						<a href="http://www.kepuchina.cn/" class="about_us" target="_blank">CHINA SCIENCF COMMUNICATION</a><br>
+						<a href="https://cn.vuejs.org/" class="about_us" data-toggle="tooltip" data-placement="right" title="animates" target="_blank">move.js</a><br>
+						<a href="http://www.htmleaf.com/" class="about_us" data-toggle="tooltip" data-placement="right" title="Progressive JavaScript framework" target="_blank">vue</a><br>
+						<a href="http://www.fontawesome.com.cn/" class="about_us" data-toggle="tooltip" data-placement="right" title="Font icon from fontawesome" target="_blank">fontawesome</a><br>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-6" data-aos="zoom-in">
+						<div class="container-fluid">
+							<h4 class="foot-text">more</h4>
+                        <a href="index.htm" class="about_us" data-toggle="tooltip" data-placement="left" title="点击切换">中文版</a><br>
+                        <a data-toggle="modal" data-target="#Modal1" class="about_us">reference</a><br>     
+                        <p href="" class="about_us" data-toggle="tooltip" data-placement="left" title="Author：Dirk Reichardt">BGM：When The Light Comes<br></p>
+                        
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </footer>
+    
+    <!-- 返回顶部按钮 -->
+    <div class="turnback" data-aos="zoom-in">
+        <a href="#"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a>
+    </div>
+
+    <!-- 背景音乐 -->
+	<!--控制播放-->
+	<div id="bg_music_btn" data-aos="zoom-in" data-state='1'>
+        <img src="images/index/music_note_big.png" id="music_btn" class="Rotation">
+        <div id="bg_music"></div>
+    </div>
+    
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/lazy-load&scrollup.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/move.min.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/language.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/index.js"></script>
+    <!-- <script src="js/dandelion.js"></script> -->
+</body>
+</html>

@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ahead Four</title>
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/aos.css">
+    <link rel="stylesheet" href="sub-css/start.css">
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        .media {
+            width: 80%;
+            height: 75%;
+            overflow: hidden;
+            margin: 0 auto;
+        }
+
+        .media-middle {
+            width: 80vmin;
+            height: 50vmin;
+        }
+
+        .media-body {
+            width: 80vmin;
+            height: 50vmin;
+        }
+
+        .media-body h3>p {
+            font-size: 2vmin;
+            margin-top: 2vmin;
+            line-height: 3vmin;
+        }
+
+        .media-body h3{
+            display: block;
+        }
+
+        .center {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .media-object {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .first{
+            margin-top: 8vmax;
+        }
+        .modal-body p {
+            text-align: center;
+        }
+        .jumbotron {
+            position: relative;
+            background: url(../images/others/pub-body-bg.jpg) no-repeat center center;
+            margin-bottom: 0;
+        }
+        .jumbotron h1,
+        .jumbotron p {
+            /* position: relative; */
+            color: #fff;
+            margin-left: 5vmin;
+            /* float: right; */
+        }
+
+        .img-circle {
+            width: 15vw;
+            height: 15vw;
+            position: absolute;
+            right: 5vmin;
+            top: 5vmin;
+            /* float: left; */
+        }
+    </style>
+</head>
+<body>
+        <!-- 导航栏 -->
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="../index.htm"><img class="img-responsive" src="../images/index/logo.png" alt="moss"></i></a>
+                </div>
+                
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="glyphicon glyphicon-home"></i>&nbsp;Home  <span class="caret"></span></a>
+                            <ul class="dropdown-menu" id="home">
+                                <li><a href="../en-index.htm#banner">Home</a></li>
+                                <li><a href="../en-index.htm#center">Set Sail</a></li>
+                                <li><a href="../en-index.htm#position">Pattern</a></li>
+                                <li><a href="../en-index.htm#goals">star sea</a></li>
+                                <li><a href="../en-index.htm#speedup">Ahead Four</a></li>
+                                <li><a href="../en-index.htm#aboutus">About Us</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-plane" aria-hidden="true">&nbsp;Set Sail</i> <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="public-en.html#container">Space explore</a></li>
+                                    <li><a href="public-en.html#game">Space race in science-fiction</a></li>
+                                    <li><a href="public-en.html#develop">Go hand in hand </a></li>
+                                </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-globe" aria-hidden="true">&nbsp;Pattern</i> <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="position-en.html#sci-fiton">Localization</a></li>
+                                <li><a href="position-en.html#based-sci">Basic scientific research</a></li>
+                                </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-paper-plane-o" aria-hidden="true">&nbsp;star sea</i> <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                            <li><a href="starsea-en.html#sci-fiton">The film industry</a></li>
+                            <li><a href="starsea-en.html#based-sci">New long march</a></li>
+                            <li><a href="starsea-en.html#based">Private space company</a></li> 
+                            </ul>
+                    </li>
+                    <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-rocket" aria-hidden="true">&nbsp;Ahead Four</i> <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="">New sailing</a></li>
+                                <li><a href="#think">Chinese thinking</a></li>
+                                <li><a href="#stars">Looking up the stars</a></li>
+                                <li><a href="#pub">Community with shared future for mankind</a></li>
+                            </ul>
+                    </li>
+    
+                    <li class="dropdown">
+                        <a href="../en-index.htm#aboutus"><i class="fa fa-users" aria-hidden="true">&nbsp;About us</i></a>
+                    </li>
+                    <li class="dropdown english">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <i class="fa fa-language" aria-hidden="true"></i>&nbsp;language<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="speedup.html">中文</a></li>
+                            <li><a href="#newtrip">English</a></li>
+                        </ul>
+                    </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>    
+    <!--========================== 大标题===================== -->
+    <div class="breadcrumb-tow mb-120 ">
+        <div class="breadcrumb-title">
+            <h1 data-aos="zoom-in"><i class="fa fa-plane" aria-hidden="true"></i>&nbsp;Ahead Four</h1>
+            <p></p>
+            <!-- <span></span> -->
+        </div>
+    </div>      
+        <!--背景-->
+        <section id="newtrip" name="background" style="padding-top: 10px">
+                <div class="media">
+                    <div class="media-body">
+                        <div class="center" data-aos="zoom-in">
+                            <h3 class="media-heading">New sailing<p>Create the civilization of human spaceflight, forge the monument of national science and technology.<br>----China Aerospace Science and Technology Corporation.<br>
+                                Facing the future, Aerospace Science and Technology Group is building a new generation of Long March series launch vehicle type spectrum with advanced technology, cost optimization, product reliability and first-class measurement, with the idea of “modularization, combination and serialization” to continue technological innovation. With the improvement of basic capabilities and other measures to maintain the "Long March" brand image, protect the "Long March" intellectual property rights, bigger and stronger "Long March" brand, and constantly achieve a new leap in China's carrier rocket level.</p></h3>
+                        </div>
+                        
+                    </div>
+                    <div class="media-left media-middle" data-aos="zoom-in">
+                        <a href="#">
+                        <img class="media-object" data-src="../images/others/newtrip.jpg" src="../images/loading.gif" alt="...">
+                        </a>
+                    </div>                    
+                </div>
+
+                <div class="media first" id="think">
+                    <div class="media-left media-middle" data-aos="zoom-in">
+                        <a>
+                        <img class="media-object" src="../images/others/thinking.jpg" alt="...">
+                        </a>
+                    </div>
+                    <div class="media-body" data-aos="zoom-in">
+                        <div class="center">
+                            <h3 class="media-headi ng">Thinking about the future<p>"China's wisdom, China's solutions and China's strength"<br>
+                                Taking "Wandering Earth" as an example, he said that the story told by the film itself has a scientific background, that is, the solar system has a limited life span, and one day in the future, the sun will eventually become a red giant "swallow" the earth. So you need to ask questions: Where is the future of mankind, what should I do now? He further pointed out that this is actually the mission of manned space flight - to solve the problem of where humans will go in the future.
+——Zhang Bonan, Chief Designer of the General Department of Manned Space, the Fifth Academy of China Aerospace Science and Technology Corporation<br>
+                                China's science fiction literature and art should not only be wary of transnational capital, but also copy and transfer the capitalist logic and contradictions on the earth to outer space. At the same time, we must also seek sci-fi theory and discourse resources rooted in China to break the existing An aesthetic paradigm constructed by 20th century modernist aesthetics. ——Sun Jiashan, China Academy of Art</p></h3>  
+                        </div>
+                                              
+                    </div> 
+                </div>
+
+                <div class="media" id="stars">
+                    <div class="media-body" data-aos="zoom-in">  
+                        <div class="center">
+                            <h3 class="media-headi ng">look up at the starlit sky<p>Thoughts on the future of mankind and ultimate human thinking
+                                community with shared future for mankind</p></h3>
+                        </div>
+
+                    </div> 
+                    <div class="media-left media-middle" data-aos="zoom-in">
+                        <a>
+                        <img class="media-object" src="../images/others/universe.jpg" alt="...">
+                        </a>
+                    </div>
+                    
+                </div>
+
+               <div class="jumbotron first" id="pub" data-aos="zoom-in">
+                   
+                    <h1>We will promote the building of a community of Shared future for mankind
+                    </h1>
+                    <p>The birth of the first pictures of black holes, the power of all mankind...</p>
+                    <p><a class="btn btn-primary btn-lg" href="#" role="button" data-toggle="modal" data-target="#Modal1">了解更多</a></p>
+                    <img data-src="../images/blackhole.jpg" src="../images/loading.gif" alt="" class="img-circle">
+                    <!-- <p style="text-align: center;position: absolute;top: 0;left: 0;bottom: 0;right: 0;width: 100%;height: 100%;content: '';background-color: #596c7580;transition: all 0.2s;cursor: pointer;"></p> -->
+                </div>
+                <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel" id="Modal1">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="gridSystemModalLabel">The development of space requires a community of Shared </h4>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p> The Event Horizon Telescope (EHT), a project to photograph black holes, has been around since 2017. The goal is to build a "virtual" telescope the diameter of the earth by combining eight sets of telescopes in various locations around the world, so as to collect massive data and sketch out what a black hole looks like. The EHT's "eight lenses" were located in the us, Mexico, Chile and Antarctica, and took two years to develop.<br>
+                                            <img src="../images/loading.gif" data-src="../images/others/big.jpg" alt="" class="img-responsive center-block">
+                                            Similar to such a large research project, it is necessary to all mankind to work together, xi jinping, general secretary during the meeting with reference of the chang 'e moon project task 4 volunteers as well as research staff representatives pointed out that to promote the development of the cause of world space continue to work hard, the peaceful use of space for human being and promote to build human destiny community contribution more Chinese wisdom, Chinese plan, Chinese power.</p>                                          
+                                            <img src="../images/loading.gif" data-src="../images/others/blackhole-m.jpg" alt="" class="img-responsive center-block">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">close</button>
+                            </div>
+                            </div><!-- /.modal-content -->
+                        </div><!-- /.modal-dialog -->
+                </div><!-- /.modal -->
+               
+        </section>
+        <!--背景-->
+        
+
+    <!-- 底部版权部分 -->
+    <footer>
+        <i class="fa fa-copyright" aria-hidden="true">copyright2019&nbsp;&nbsp;GuangXi University—— team MOSS</i>
+    </footer>
+	<!-- <footer>
+		<div class="container">
+			<div class="row">
+				<div class="container">
+					<div class="col-md-3 col-md-offset-1 col-sm-6 col-xs-6 ">
+						<div class="container-fluid about-us">
+							<a data-toggle="modal" data-target="#Modal2" class="about_us">
+                                <i class="fa fa-file-text-o" aria-hidden="true"></i>
+								<h4 class="foot-text">在线查看</h4>
+							</a>
+						</div>
+						<div class="container-fluid about-us">
+							<a href="readme.docx" data-toggle="tooltip" data-placement="top" title="点击下载查看">
+                                <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                                <h4 class="foot-text">readme</h4>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 col-xs-6">
+						<h4 class="foot-text">友情链接</h4>
+						<a href="http://www.bootcss.com/" class="about_us" data-toggle="tooltip" data-placement="right" title="我们基于bootstrap3" target="_blank">bootstrap中文网</a><br>
+						<a href="http://www.kepuchina.cn/" class="about_us" target="_blank">科普中国</a><br>
+						<a href="https://cn.vuejs.org/" class="about_us" data-toggle="tooltip" data-placement="right" title="动效技术" target="_blank">move.js</a><br>
+						<a href="http://www.htmleaf.com/" class="about_us" data-toggle="tooltip" data-placement="right" title="渐进式JavaScript 框架" target="_blank">vue.js</a><br>
+						<a href="http://www.fontawesome.com.cn/" class="about_us" data-toggle="tooltip" data-placement="right" title="来自 fontawesome的字体图标" target="_blank">fontawesome</a><br>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-6">
+						<div class="container-fluid">
+							<h4 class="foot-text">更多</h4>
+                        <a href="english.html" class="about_us" data-toggle="tooltip" data-placement="left" title="敬请期待">英文版</a><br>
+                        <a data-toggle="modal" data-target="#Modal1" class="about_us">参考文献（部分内容来自网络）</a><br>     
+                        <p href="" class="about_us" data-toggle="tooltip" data-placement="left" title="作者：Dirk Reichardt">BGM：When The Light Comes<br></p>
+                        
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer> -->
+    <!-- 返回顶部按钮 -->
+    <div class="turnback">
+        <a href="#"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a>
+    </div>
+
+    
+    
+    <script src="../js/jquery-1.11.0.min.js"></script>
+    <script src="../js/aos.js"></script>
+    <script src="../js/bootstrap.min.js"></script><script src="js/lazy-load&scrollup.js"></script>
+    <script src="../js\dandelion.js"></script>
+    
+</body>
+</html>

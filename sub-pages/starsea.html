@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>星辰大海</title>
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/aos.css">
+    <link rel="stylesheet" href="sub-css/start.css">
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        /* iframe */
+        #background .modal-btn i {
+            font-size: 3vw;
+        }
+
+        .part {
+            height: 16vh;
+            background-color: #bababa73;
+            border-radius: 2vmin;
+            margin: 2% 2% 2% 0;
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            cursor: pointer;
+        }
+
+        .media {
+            background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+            margin-bottom: 2%;
+            max-width: 90vw;
+            border-radius: 5px;
+        }
+
+        .media-object {
+            width: 20vmin;
+            height: 20vmin;
+            object-fit: cover;
+        }
+
+        /* @media (max-width:425px){
+            .media-object {
+                width: 100vmin;
+                height: 60vmin;
+                object-fit: cover;
+            }
+        } */
+    </style>
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="../index.htm"><img class="img-responsive" src="../images/index/logo.png" alt="moss"></i></a>
+            </div>
+            
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="glyphicon glyphicon-home"></i>&nbsp;首页  <span class="caret"></span></a>
+                        <ul class="dropdown-menu" id="home">
+                            <li><a href="../index.htm#banner">返回首页</a></li>
+                            <li><a href="../index.htm#center">启航</a></li>
+                            <li><a href="../index.htm#position">格局定位</a></li>
+                            <li><a href="../index.htm#goals">星辰大海</a></li>
+                            <li><a href="../index.htm#speedup">前进四</a></li>
+                            <li><a href="../index.htm#aboutus">关于我们</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-plane" aria-hidden="true">&nbsp;启程</i> <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="public.html#container">航天史</a></li>
+                                <li><a href="public.html#game">科幻电影加入太空竞赛</a></li>
+                                <li><a href="public.html#develop">齐头并进 </a></li>
+                            </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-globe" aria-hidden="true">&nbsp;格局定位</i> <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                        <li><a href="position.html#sci-fiton">科幻本土化</a></li>
+                        <li><a href="position.html#based-sci">基础科学研究</a></li>
+                        <li><a href="position.html#space-station">基础科学研究</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-paper-plane-o" aria-hidden="true">&nbsp;星辰大海</i> <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                            <li><a href="#sci-fiton">建设高工业水准电影体系</a></li>
+                            <li><a href="#based-sci">航天新长征</a></li>
+                            <li><a href="#based">私营航天公司崛起</a></li> 
+                            </ul>
+                    </li>
+                    <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-rocket" aria-hidden="true">&nbsp;前进四</i> <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="speedup.html">航行新长征</a></li>
+                                <li><a href="speedup.html#think">中国思维思考未来</a></li>
+                                <li><a href="speedup.html#stars">仰望星空</a></li>
+                                <li><a href="speedup.html#pub">推进人类命运共同体构建</a></li>
+                            </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="../index.htm#aboutus"><i class="fa fa-users" aria-hidden="true">&nbsp;关于我们</i></a>
+                    </li>
+                    <li class="dropdown english">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <i class="fa fa-language" aria-hidden="true"></i>语言<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#background">中文</a></li>
+                            <li><a href="starsea-en.html">English</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>  
+
+    <div class="breadcrumb-tow mb-120 ">
+        <div class="breadcrumb-title">
+            <h1 data-aos="zoom-in"><i class="fa fa-paper-plane-o" aria-hidden="true"></i>&nbsp;星辰大海</h1>
+        </div>
+     </div>
+        
+        
+        <!--背景-->
+        <section id="background" name="background" style="padding-top: 10px">
+            <div class="container" >
+                <div class="row" style="padding: 20px 0;" id="sci-fiton">
+                    <div class="col-md-12" style="border-left: 2px solid #667eea;">
+                        <h2 data-aos="zoom-in" class="wow fadeInRight">建设高工业水准电影体系</h2>
+                    </div>
+                </div>
+                <div class="col-md-12">
+				    <div class="media">
+                        <div class="media-left" data-aos="zoom-in">
+                            <a>
+                            <img class="media-object" src="../images/others/movie-industry.jpg" alt="电影工业">
+                            </a>
+                        </div>
+                        <div class="media-body" data-aos="zoom-in">
+                            <h4 class="media-heading">国外工业程度</h4>
+                            <p>“国外工业程度极其高，比如他们随便抓一个人都能设计发动机。但我们的人对这方面毫无概念。我们需要专业的人才，
+                                但市场上并没有培养一批专业人员做这个。我们基础确实不太够，这是大环境的问题。大方向在往好的方向推进，这方面人才还是需要慢慢积攒。”(希娜魔夫公司-王科)</p>
+                        </div>
+                    </div>		
+                </div>
+                
+                <div class="col-md-12">
+				    <div class="media">
+                        <div class="media-left" data-aos="zoom-in">
+                            <a>
+                            <img class="media-object" src="../images/others/waiguge.jpg" alt="外骨骼装甲">
+                            </a>
+                        </div>
+                        <div class="media-body" data-aos="zoom-in">
+                            <h4 class="media-heading">中国电影工业化</h4>
+                            <p>好莱坞能够达到现在的工业化水平，也是走了很漫长的
+                                    段路程。在艺术和制作工业上我们其实并不落后，但是在
+                                    管理机制、工业流程和创意方面还需要继续努力。这些都需
+                                    要时间，需要一代代的电影人去不断地尝试和摸索。
+                                    在整个中国电影工业化的历程中，《流浪地球》或许只
+                                    是一小步，但确是踏踏实实的第一步。</p>
+                        </div>
+                    </div>		
+                </div>
+
+                <div class="row" style="padding: 20px 0;" id="based-sci">
+                    <div class="col-md-12" style="border-left: 2px solid #667eea;">
+                        <h2 class="wow fadeInRight" data-aos="zoom-in">航天新长征</h2>
+                    </div>
+                </div>
+                <div class="col-md-12">
+				    <div class="media">                       
+                        <div class="media-body" data-aos="zoom-in">
+                            <h4 class="media-heading">载人航天</h4>
+                            <p>习近平总书记在会见探月工程嫦娥四号任务参研参试人员代表时指出,要为推动世界航天事业发展继续努力,为人类和平利用太空、推动构建人类命运共同体贡献更多中国智慧、中国方案、中国力量。 </p>
+                        </div> 
+                        <div class="media-right" data-aos="zoom-in">
+                            <a>
+                            <img class="media-object" src="../images/others/spaceflight.jpeg" alt="中星6C卫星发射">
+                            </a>
+                        </div>
+                    </div>		
+                </div>
+
+                <div class="col-md-12">
+				    <div class="media">
+                        <div class="media-body" data-aos="zoom-in">
+                            <h4 class="media-heading">火星探测</h4>
+                            <p>2019年1月14日，中国国家航天局副局长、探月工程副总指挥吴艳华在国务院新闻办召开的新闻发布会上表示，以嫦娥四号任务圆满成功为标志，中国探月工程四期和深空探测工程全面拉开序幕，中国首次火星探测任务将于2020年前后实施。</p>
+                        </div>
+                        <div class="media-right">
+                            <a>
+                            <img class="media-object" src="../images/others/sparkexplore.jpeg" alt="火星探测器">
+                            </a>
+                        </div>
+                        
+                    </div>		
+                </div>
+
+                <div class="row" style="padding: 20px 0;" id="based">
+                    <div class="col-md-12" style="border-left: 2px solid #667eea;">
+                        <h2 class="wow fadeInRight" data-aos="zoom-in">民营航天：军民融合国家战略落地</h2>
+                    </div>
+                </div>
+                <div class="jumbotron" data-aos="zoom-in">
+                    <h2>私营航天公司井喷发展</h2>
+                    <p>翎客航天（2014年成立）。2015年之后，民营火箭发展进入快车道，陆续有星际荣耀、星途探索、蓝箭航天、零壹空间、银河航天、九州云箭、灵动飞天、深蓝航天、星河动力成立</p>
+                </div>
+                <div class="jumbotron" data-aos="zoom-in">
+                        <h2>私营航天技术</h2>
+                        <p>翎客航天火箭低空飞行回收试验成功。<br>2019年3月27日下午4时许，翎客航天在位于山东龙口的火箭回收试验场完成了公里级可回收火箭（昵称：新航线小宝贝；工程代号RLV-T5，Reusable Launch Vehicle-Test 5）首次自由状态下的低空飞行回收试验，并取得圆满成功。至此，翎客航天继2018年1月实现RLV-T3型火箭低空回收及平移，2019年1月实现RLV-T5型火箭悬停飞行试验后，在国内的火箭回收技术领域又创下了一个新的里程碑。</p>
+                    </div>
+            </div>
+        </section>
+        <!--背景-->
+        
+
+    <!-- 底部版权部分 -->
+    <footer>
+            <i class="fa fa-copyright" aria-hidden="true">copyright2019&nbsp;&nbsp;广西大学——MOSS小分队</i>
+    </footer>
+	<!-- <footer>
+		<div class="container">
+			<div class="row">
+				<div class="container">
+					<div class="col-md-3 col-md-offset-1 col-sm-6 col-xs-6 ">
+						<div class="container-fluid about-us">
+							<a data-toggle="modal" data-target="#Modal2" class="about_us">
+                                <i class="fa fa-file-text-o" aria-hidden="true"></i>
+								<h4 class="foot-text">在线查看</h4>
+							</a>
+						</div>
+						<div class="container-fluid about-us">
+							<a href="readme.docx" data-toggle="tooltip" data-placement="top" title="点击下载查看">
+                                <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                                <h4 class="foot-text">readme</h4>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 col-xs-6">
+						<h4 class="foot-text">友情链接</h4>
+						<a href="http://www.bootcss.com/" class="about_us" data-toggle="tooltip" data-placement="right" title="我们基于bootstrap3" target="_blank">bootstrap中文网</a><br>
+						<a href="http://www.kepuchina.cn/" class="about_us" target="_blank">科普中国</a><br>
+						<a href="https://cn.vuejs.org/" class="about_us" data-toggle="tooltip" data-placement="right" title="动效技术" target="_blank">move.js</a><br>
+						<a href="http://www.htmleaf.com/" class="about_us" data-toggle="tooltip" data-placement="right" title="渐进式JavaScript 框架" target="_blank">vue.js</a><br>
+						<a href="http://www.fontawesome.com.cn/" class="about_us" data-toggle="tooltip" data-placement="right" title="来自 fontawesome的字体图标" target="_blank">fontawesome</a><br>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-6">
+						<div class="container-fluid">
+							<h4 class="foot-text">更多</h4>
+                        <a href="english.html" class="about_us" data-toggle="tooltip" data-placement="left" title="敬请期待">英文版</a><br>
+                        <a data-toggle="modal" data-target="#Modal1" class="about_us">参考文献（部分内容来自网络）</a><br>     
+                        <p href="" class="about_us" data-toggle="tooltip" data-placement="left" title="作者：Dirk Reichardt">BGM：When The Light Comes<br></p>
+                        
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer> -->
+    <!-- 返回顶部按钮 -->
+    <div class="turnback" data-aos="zoom-in">
+        <a href="#"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a>
+    </div>
+  
+    <script src="../js/jquery-1.11.0.min.js"></script>   
+    <script src="../js/bootstrap.min.js"></script>
+   
+    <script src="../js/aos.js"></script> <script src="js/lazy-load&scrollup.js"></script>
+    <!-- <script src="../js\dandelion.js"></script> -->
+</body>
+</html>

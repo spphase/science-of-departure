@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>启航·科幻</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/index.css">
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body> 
+    <div class="loading">
+        <div class="spinner">
+            <div class="rect1"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+            <div class="rect4"></div>
+            <div class="rect5"></div>
+        </div>
+    </div> 
+    
+    <!-- 导航栏 -->
+        <nav class="navbar navbar-fixed-top ">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#"><img class="img-responsive" src="images/index/logo.png" alt="moss"></i></a>
+                    </div>
+                      
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="glyphicon glyphicon-home"></i>&nbsp;首页  <span class="caret"></span></a>
+                                <ul class="dropdown-menu" id="home">
+                                    <li><a href="#banner">返回首页</a></li>
+                                    <li><a href="#center">启程</a></li>
+                                    <li><a href="#position">格局定位</a></li>
+                                    <li><a href="#goals">星辰大海</a></li>
+                                    <li><a href="#speedup">前进四</a></li>
+                                    <li><a href="#aboutus">关于我们</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-plane" aria-hidden="true">&nbsp;启程</i> <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="sub-pages/public.html#container">航天史</a></li>
+                                        <li><a href="sub-pages/public.html#game">科幻电影加入太空竞赛</a></li>
+                                        <li><a href="sub-pages/public.html#develop">齐头并进 </a></li>
+                                    </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-globe" aria-hidden="true">&nbsp;格局定位</i> <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                  <li><a href="sub-pages/position.html#sci-fiton">科幻本土化</a></li>
+                                  <li><a href="sub-pages/position.html#based-sci">基础科学研究</a></li>
+                                  <li><a href="sub-pages/position.html#space-station">中国“天宫”</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-paper-plane-o" aria-hidden="true">&nbsp;星辰大海</i> <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                      <li><a href="sub-pages/starsea.html">建设高工业水准电影体系</a></li>
+                                      <li><a href="sub-pages/starsea.html#based-sci">航天新长征</a></li>
+                                      <li><a href="sub-pages/starsea.html#based">私营航天公司崛起</a></li> 
+                                    </ul>
+                            </li>
+                            <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-rocket" aria-hidden="true">&nbsp;前进四</i> <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="sub-pages/speedup.html#newtrip">航天新长征</a></li>
+                                        <li><a href="sub-pages/speedup.html#think">中国思维思考未来</a></li>
+                                        <li><a href="sub-pages/speedup.html#stars">仰望星空</a></li>
+                                        <li><a href="sub-pages/speedup.html#pub">推进人类命运共同体构建</a></li>
+                                    </ul>
+                            </li>
+
+                            <li class="dropdown">
+                                <a href="#aboutus"><i class="fa fa-users" aria-hidden="true">&nbsp;关于我们</i></a>
+                            </li>
+                            <li class="dropdown english">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <i class="fa fa-language" aria-hidden="true"></i>&nbsp;语言<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="index.htm">中文</a></li>
+                                    <li><a href="en-index.htm" id="translate">English</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <!-- <form class="navbar-form navbar-right">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search">
+                            </div>
+                            <button type="submit" class="btn btn-default">Submit</button>
+                        </form> -->
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+        </nav>  
+    <!-- banner部分 -->
+        <div class="banner" id="banner">              
+			<ul class="slidepicture">
+				<li class="banner-bg">
+                    <img src="images/index/banner-bg.jpg">
+                    <span class="theme">
+                        <img data-src="images/index/theme.png" src="images/loading.gif" alt="启航·科幻"><br>
+                        <span>科幻的诞生，是伴随科技而来的，而科技发展则是现代社会的典型特征。</span>
+                    </span>
+                </li>
+				<li class="banner-bg">
+                    <img src="images/index/newworld.jpg">
+                    <span class="newworld">
+                        <img data-src="images/index/newworld.png" src="images/loading.gif" alt="新时代·新长征">
+                        <span>中国长征系列运载火箭实现了300次发射的历史性跨越，迎着新时代_新梦想_开启新长征。</span>
+                    </span>
+                </li>
+                <li class="banner-bg">
+                    <img src="images/index/pub-body.jpg" class="body-bg">
+                    <span class="pub-body">
+                        <span>要为推动世界航天事业发展继续努力,为人类和平利用太空、推动构建人类命运共同体贡献更多中国智慧、中国方案、中国力量。——习近平<img src="images/index/pub-body.png" alt="人类命运共同体"></span>
+                    </span>
+                </li>
+            </ul>
+            <ul class="circle">
+                <li data-aos="zoom-in"><span class="timer"></span></li>
+                <li data-aos="zoom-in"><span></span></li>
+                <li data-aos="zoom-in"><span></span></li>
+            </ul>
+            <a class="button-fa" data-to="center"><i class="fa fa-angle-double-down" aria-hidden="true"></i></a>
+		</div>	    
+           
+        <!-- <div class="container"> -->
+             <!-- ================启程部分=============================== -->
+            <section class="row" id="center">
+                <div class="col-md-12">
+                    <div class="titler">
+                        <span data-aos="zoom-in">启程</span><span class="pub-line"></span>
+                        <p>中国是太空探索的后来者，在电影中，也是科幻电影的后来者</p>
+                    </div>
+                    <div id="slider" data-aos="fade-up" aos-offset="0">
+                       <div class="slide">
+                            <a href="sub-pages/public.html#background"><img class="diapo" src="images/loading.gif" data-src="images/index/history.jpg" alt=""></a>
+                            <div class="text">
+                                <span class="title">航天之路</span>
+                                这部分展现的是我国目前的航天历程、历史成就、重大事件，从发展史到尖端科技突破，托付起国民探索太空的自信心，为国产科幻片启程奠定了自信基础。
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <a href="sub-pages/public.html#game"><img class="diapo" src="images/loading.gif" data-src="images/index/game.jpg" alt=""></a>
+                            <div class="text">
+                                <span class="title">科幻电影加入太空竞赛</span>
+                                像流浪地球一样，中国的科幻电影今天正式启航了。它展现了小说中没有的内涵和深度，把东方文化中对家乡、土地的依恋和感情在太空尺度中表现出来。真正成功的科幻片看起来像历史片，这部电影做到了，它的厚重感、沧桑感、历史感都十分到位。一个强国，走在文化最前锋的就是科幻作品，过去是英国，后来是美国，现在也轮到中国了。——原著作者刘慈欣
+                            </div>
+                        </div>
+                        <div class="slide">
+                                <a href="sub-pages/public.html#develop"><img class="diapo" src="images/loading.gif"data-src="images/index/develop.jpg" alt=""></a>
+                                <div class="text">
+                                    <span class="title">齐头并进</span>
+                                    国家航天等科技不断进步，新的发现和新的成就又给予科幻新的思考新的想象，科幻又以流行文化的方式鼓励年青人投身航天事业，两者形成良性互动，因此科幻电影往往又是大众与高精尖科技联系的纽带，可以引导人们热爱科学。
+                                </div>
+                            </div>
+                         
+                    </div>
+                </div>       
+            </section>
+        <!-- ========================格局定位============== -->
+            <section id="position" class="row">
+                <div class="titler">
+                    <span data-aos="zoom-in-up">格局定位<span class="pub-line"></span></span>
+                    <p data-aos="zoom-in-left">科幻本土化是科幻电影的第一道难题，而基础科学是科幻作品的根基</p>
+                </div>    
+
+                <div class="position-box">
+                    <div class="pos-cont" data-aos="zoom-in">
+                        <a href="sub-pages/position.html#sci-fiton">
+                            <i class="fa fa-wpexplorer" aria-hidden="true"></i>
+                            <h3>科幻本土化</h3>
+                            <span class="text">西方科幻电影占据国内科幻题材的主要市场，导致中国观众对科幻电影的认知深受西方科幻思想影响，在此基础上形成了特有的审美习惯。然而科幻电影在中国发展又不能完全照搬西方，所以对于如何在影片中达到科幻与中国文化的完美融合仍是一大难题，也是科幻片在中国发停滞不前主要原因之一。<br>——陕西科技大学 王萌</span>
+                        </a>       
+                    </div>
+                    <div class="pos-cont" data-aos="zoom-in">
+                        <a href="sub-pages/position.html#based-sci">
+                            <i class="fa fa-superpowers" aria-hidden="true"></i>
+                            <h3>基础科学研究</h3>
+                            <span class="text">国家经济发展起来并有一定的基础后，就会发展艺术、音乐、文学以及科学，人们这时就会仰望天空，探索世界是怎么回事、宇宙的根本构成，我们为什么来、将来到什么地方去？这些探索让我们永远有动力追求未知。</span>
+                        </a>                 
+                    </div>
+                    <div class="pos-cont" data-aos="zoom-in">
+                        <a href="sub-pages/position.html#based-sci">
+                            <i class="fa fa-grav" aria-hidden="true"></i>
+                            <h3>中国“天宫”</h3>
+                            <span class="text">“星空浩瀚无比，探索永无止境”。未来空间站任务中，中国载人航天将以更加开放的姿态在设备研制、空间应用、航天员培养、联合飞行和航天医学等多个方面，积极开展国际交流与合作，与世界各国特别是发展中国家，分享中国载人航天发展成果。</span>
+                        </a>                 
+                    </div>
+                </div>
+                
+            </section>
+        
+            <!-- =======================星辰大海========= -->
+            <section id="goals" class="row">
+                <div class="titler">
+                    <span data-aos="zoom-in-up">星辰大海</span>
+                    <span class="pub-line"></span>
+                    <p data-aos="zoom-in-left">我们的目标是，星辰大海！</p>
+                </div> 
+                <div id="wrapper">
+                    <div id="left-side">
+                      <ul>
+                        <li class="choose active" data-aos="zoom-in">
+                          <div class="icon active">
+                            <i class="fa fa-cogs" aria-hidden="true"></i>
+                          </div>
+                          <h3>电影工业体系</h3>
+                        </li>
+                        <li class="pay" data-aos="zoom-in">
+                          <div class="icon">
+                            <i class="fa fa-ravelry" aria-hidden="true"></i>
+                          </div>
+                          <h3>航天新长征</h3>
+                        </li>
+                        <li class="wrap" data-aos="zoom-in">
+                          <div class="icon">
+                            <i class="fa fa-rocket" aria-hidden="true"></i>
+                          </div>
+                          <h3>私营航天</h3>
+                        </li>
+                      </ul>
+                    </div>
+      
+                    <div id="border">
+                      <div id="line" class="one"></div>
+                    </div>
+      
+                    <div id="right-side">
+                        <div class="first active" data-aos="zoom-in">    
+                            <a href="sub-pages/starsea.html#sci-fiton" class="goals-target">
+                                <div class="icon big">
+                                <!-- 图标 -->
+                                    <i class="fa fa-cogs" aria-hidden="true"></i>
+                                </div>
+                                <h1>建设高工业水准电影体系</h1>
+                                <p>“国外工业程度极其高，比如他们随便抓一个人都能设计发动机。但我们的人对这方面毫无概念。我们需要专业的人才，但市场上并没有培养一批专业人员做这个。我们基础确实不太够，这是大环境的问题。大方向在往好的方向推进，这方面人才还是需要慢慢积攒。”(希娜魔夫公司-王科)</p>
+                            </a>
+                        </div>
+
+                        <div class="second" data-aos="zoom-in">
+                            <a href="sub-pages/starsea.html#based-sci" class="goals-target">
+                                <div class="icon big">
+                                <i class="fa fa-ravelry" aria-hidden="true"></i>
+                                </div>
+                                <h1>新时代__新梦想__新长征</h1>
+                                <p> 太空探索永无止境。从 1970 年 4 月 24 日我国用长征一号运载火箭成功发射东方红一号卫星,到2019年3月10日长征三号乙运载火箭托举中星6C卫星飞向太空,中国长征系列运载火箭实现了300次发射的历史 性跨越。</p>
+                            </a>
+                        </div>
+
+                        <div class="third" data-aos="zoom-in"> 
+                            <a href="sub-pages/starsea.html#based" class="goals-target">
+                                 <div class="icon big">
+                                <i class="fa fa-rocket" aria-hidden="true"></i>
+                                </div>    
+                                <h1>私营航天公司崛起</h1>
+                                <p>翎客航天于2014年成立，2015年之后，陆续有星际荣耀、星途探索、蓝箭航天、零壹空间、银河航天、九州云箭、灵动飞天、深蓝航天、星河动力成立，民营火箭发展进入快车道。</p>
+                            </a>
+                        </div>
+
+                    </div>
+                 </div>           
+            </section>
+        
+
+            <!-- ==========前进四============== -->
+            <section id="speedup">
+                    <div class="titler">
+                        <span data-aos="zoom-in-up">前进四</span>
+                        <span class="pub-line"></span>
+                        <p data-aos="zoom-in-left">借用三体中经典台词，祝愿国产科幻和航天齐头并进，激励各界人士投身科学，为理想奋斗。</p>
+                    </div>  
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6 col-xs-12" data-aos="zoom-in">
+                            <div class="contents content-first">
+                                <i class="fa fa-space-shuttle" aria-hidden="true"></i>
+                                <span><a href="sub-pages/speedup.html#newtrip"><p>航行新长征<span class="text-line"></span></p></a></span>
+                                <p class="fade-text">创人类航天文明、铸民族科技丰碑——中国航天科技集团公司</p> 
+                                <a href="sub-pages/speedup.html#newtrip" class="wall"></a>
+                            </div>
+                            
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12" data-aos="zoom-in">
+                            <div class="contents content-second">
+                                    <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+                                <span><a href="sub-pages/speedup.html#think">未来思考<span class="text-line"></span></a></span>
+                                <p class="fade-text">中国智慧、中国方案、中国力量</p> 
+                                <a href="sub-pages/speedup.html#think" class="wall"></a>
+                            </div>
+                            
+                                
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12" data-aos="zoom-in">
+                            <div class="contents content-third">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                <span><a href="sub-pages/speedup.html#stars">仰望星空<span class="text-line"></span></a></span>
+                                <p class="fade-text">人类未来命运思考、人类终极思考</p>
+                                <a href="sub-pages/speedup.html#stars" class="wall"></a>
+                            </div>
+ 
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12" data-aos="zoom-in">
+                            <div class="contents content-fourth">
+                                <i class="fa fa-life-ring" aria-hidden="true"></i>
+                                <span><a href="sub-pages/speedup.html#pub">人类命运共同体<span class="text-line"></span></a></span>
+                                <p class="fade-text">推进人类命运共同体构建</p>
+                                <a href="sub-pages/speedup.html#pub" class="wall"></a>
+                            </div>
+                            
+                        </div>
+                    </div>
+            </section>
+       
+            <!-- 关于我们 -->
+            <div class="row" id="aboutus">
+                    <div class="col-md-offset-2 col-md-8 col-xs-offset-2 col-xs-8">
+                        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingOne">
+                                    <h4 class="panel-title" data-aos="zoom-in-left">
+                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            主创人员：陈爱炳
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                    <div class="panel-body">
+                                        <span><img src="images/loading.gif" data-src="images/others/bing.jpg" alt="陈爱炳"></span>
+                                        <p>爱好：web前端、科幻、羽毛球<br>无论最终结果将历史导向何处，我们决定选择希望！</p>
+                                    </div>
+                                </div>
+                            </div>
+             
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingTwo">
+                                    <h4 class="panel-title" data-aos="zoom-in-left">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            主创人员：蒋佳圆
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                    <div class="panel-body">
+                                        <span><img src="images/loading.gif" data-src="images/others/yuan.jpg" alt="蒋佳圆"></span>
+                                        <p>爱好：绘画、设计、旅游、骑游、滑板<br>向死而生 </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <!-- vw,move.js,延迟加载，视觉差页尾 -->
+
+            <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel" id="Modal1">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="gridSystemModalLabel">特别鸣谢文献作者(含部分内容观点来自网络)</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-sm-9">
+                                    <p>
+                                            [1]<strong>流浪地球制作手记——朔方</strong><br>
+                                            [2]高崇武.关于民营企业发射运载火箭的思考[J].国防科技工业,2019(03):28-32. <br>
+                                            [3].贺萌,陆静.中国航天企业国际标准化的实施与发展[J].航天标准化,2019(01):27-33.<br>
+                                            [4] 五十载春秋上下求索 三百次发射铸就辉煌[N]. 中国航天报,2019-03-15(002).<br>
+                                            [5]. 闫越.我的航天体验之旅[J].军事文摘,2019(06):63.<br>
+                                            [6].新时代 新梦想 新长征[N]. 中国航天报,2019-03-11(001).<br>
+                                            [7]清华航院研究生“大国起飞”就业实践探索中国航天新征程[J].中国大学生就业,2019(05):32.<br>
+                                            [8].贺萌,陆静.中国航天企业国际标准化的实施与发展[J].航天标准化,2019(01):27-33.<br>
+                                             [9]五十载春秋上下求索 三百次发射铸就辉煌[N]. 中国航天报,2019-03-15(002).<br>
+                                            [10]闫越.我的航天体验之旅[J].军事文摘,2019(06):63.<br>
+                                            [11]. 王萌.浅析国产硬核科幻片《流浪地球》的成功因素[J].大众文艺,2019(05):156-157.<br>
+                                            [12].新时代 新梦想 新长征[N]. 中国航天报,2019-03-11(001).<br>
+                                            [13].《流浪地球》2月票房超44亿元:开启中国科幻电影创作新征程[J].现代电影技术,2019(03):62-63.<br>
+                                            [14].清华航院研究生“大国起飞”就业实践探索中国航天新征程[J].中国大学生就业,2019(05):32.<br> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                        </div>
+                        </div><!-- /.modal-content -->
+                    </div><!-- /.modal-dialog -->
+                </div><!-- /.modal -->
+
+                <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel" id="Modal2">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="gridSystemModalLabel">2019年（第12届）中国大学生计算机设计大赛《启航·科幻》主题网站技术说明文档</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <p>
+                                        前言<br>
+                                        科幻的诞生，是伴随科技而来的，而科技发展则是当代中国的典型特征。本网站立足我国航天科技飞速发展，将当下热点以流浪地球为代表的中国科幻电影联系在一起，探究国家科技发展与流行科幻作品的联系，畅想我国航天与科幻互为佳话的未来，以大学生的视角去看待中国未来尖端领域与科学幻想的腾飞，旨在以更现代化的方式，为更多人心中播种科幻的种子，鼓励人们热爱科学、崇尚科学。<br>
+                                        <br>
+                                        1.	    建站目的及功能定位<br>
+
+                                        1.1 建站目的<br>
+                                        在新时代大背景下，科技创新日新月异，尤其是我国航天领域不断取得突破，使我国迈向航天强国。让我们以习近平新时代中国特色社会主义思想引导，关注时下社会焦点，感受国家发展动脉。大学生是受过高等教育的人才，对国家大事有着自我的看法与责任感，作为年轻一代，肩负着祖国未来生态环境建设的重任。中国科幻文艺在过去几年的时间里从到刘慈欣等知名科幻作家先后夺得雨果奖等科幻领域的世界性奖项，我国的科幻文艺开始逐渐走出相对小众的圈层，越来越火，越来越主流化，直到《流浪地球》，已经具备可以引发全民性爆点话题的能量。<br>
+                                        1.2 网站功能定位<br>
+                                        根据网站的内容和功能，网站定位为宣传性、互动性、学习性的展示平台。<br>
+                                        2、    网站内容规划<br>
+                                        
+                                        2.1 网站名称：《启航·科幻》<br>
+                                        2.2 网站主题<br>
+                                        本网站主题为“启航·科幻”，其中隐含中国航天和国产科幻两个主体，副标题为“新时代、新征程”，是立足于我国长征系列运载火箭实现了300次发射的历史性跨越，借助这两者的关系，探究未来太空竞争在真实航天领域与中国科幻发展，及其中包含的社会主义价值观念，中华传统理念。<br>
+                                        2.3 网站语言<br>
+                                        简体中文/English（敬请期待）<br>
+                                        
+                                        2.4 网站风格<br>
+                                        网站的整体风格主要以近年来比较流行的扁平动画风格为主，从而使得网站设计风格能够跟随主流，图片大多以星空的普蓝色系为主调，灵活运用渐变和曲线在空间和视觉上制造科幻感，这种呼应主题的表达方式能够使人更容易理解和接受。
+                                        
+                                        2.5 网站内容<br>
+                                        网站主要以“科幻”为中心进行扩展，首先在首页展示了本站的主题，在分页中分别从其他角度对科幻事业的发展和影响结合一些实际事件和案例进行了解读。探讨了中国航天事业和中国文化背景对中国科幻事业发展的影响。另外还结合了一些外国的成功案例与中国科幻事业的发展做出对比，从而使得读者对中国科幻事业有一个更为全面而科学的认识。在最后的板块开启人们对宇宙的思考和人类未来的思考，从而激发读者对科学，对未来，对宇宙的向往。<br>
+                                        2.6 网站思维导图<br>
+                                        
+                                         
+                                        图2-1 网站思维导图<br>
+                                                                                                    
+                                        3、    网页设计<br>
+                                        3.1 首页设计<br>
+                                        首页以流行的渐变色和极简风格呈现，以轮播图形式体现主题和副标题，让浏览者能对网站主旨概念有大致的了解。主页的背景主要采用扁平化的星空的背景加上行的曲线渐变和星球山川的结合在视觉营造出宇宙的神秘而魔幻的感觉。横向导航栏模块分别是：首页、启程、格局定位、星辰大海、前进四、关于我们。通过点击展开各模块包含的内容，方便浏览者在各部分内容间随时自由跳转。在不同的图片中融入中国航天事业的元素。其中的文字体现出一种科幻的效果，并在各个页面适当加了一个动画效果，动态与静态的结合，让网站看起来更有活力。底部小块可作为切换按钮，并类似进度条在三秒内变化另一颜色长度为100%。以及上下浮动的双向下箭头，点击可跳转至下一模块所在位置。右上角为音乐播放按钮，设置为默认循环播放，点击可停止/播放背景音乐。<br>
+                                         
+                                         
+                                        图3-1 网站首页banner效果图<br>
+                                        3.2 分模块设计<br>
+                                        3.2.1 启程<br>
+                                        该板块展示的是“中国航天事业与科幻电影的结合”，分为“航天之路”、“科幻电影加入太空竞赛”和“齐头并进”三个模块。这部分将中国航天事业与科幻事业相联系，并且起到一个科普作用，介绍了基本航天知识和中国科幻电影发展的概况。每一个板块都采用了同系列扁平渐变风格的装饰，使得页面统一完整。技术上用水平手风琴效果呈现，鼠标移动至不同图片间可切换显示三个主题，点击进入详细了解。<br>
+                                         
+                                                                          
+                                        3.2.2 格局定位<br>
+                                        这板块主要探讨“基础科学与文明对科幻的影响”，分为“科幻本土化”和“基础科学研究”两个板块，旨在探究基础科学与文明对科幻事业起到的地基作用。在基础科学和前沿科学的框架下发展科幻事业，将中国优秀传统文化精神融入科幻事业的发展中，又从科幻作品中体现中国优秀传统精神。多角度解读基础科学、社会文明和科幻间的关系，强调科学力量和文化力量的在格局定位中的重要性。两个板块一左一右，采用极简的渐变背景，大方明了，就如格局定位般需要明确。可在标题点击进入详细页面。<br>
+                                         
+                                        3.2.3 星辰大海<br>
+                                        本版块展示“高水准电影工业新体系和航天事业新发展”，分为“电影工业体系”、“航天新长征”和“私营航天”三个部分。分别介绍了一些国外先进的科幻电影体系模式与其的发展，中国航天事业取得长足的进步和国内一些私营企业也同样致力于航天发展事业。页面以星海为背景，每个模块配有暗色调图片显示出当下科幻电影与航天事业发展就如漆黑宇宙中正在燃起的片片星云，星火燎原，形势一片大好。实现效果为垂直选项卡切换，总体了解各模块内容，点击右栏内容可进入详细页面。<br>
+                                         
+                                        
+                                        3.2.4  前进四<br>
+                                        本版块借用《三体》中经典台词命名，主要是引发读者对人类未来和宇宙的思考，分为“航行新长征”、“未来思考”、“仰望星空”和“人类命运共同体”四个部分。展现中国航天技术新发展，以中国式的思维思考中国航天与科幻新未来，开展思维畅想宇宙，在宇宙角度探讨人类社会发展。整体版面以暗色调为主，稳重深沉，创造深度思考氛围。本模块分为四个入口进入具体页面。<br>
+                                         
+                                        
+                                        
+                                        3.2.5 关于我们<br>
+                                        本模块使用手风琴效果把主创成员基本信息囊括在其中。<br>
+                                         
+                                       
+                                        
+                                        
+                                        4、技术难点及创新点<br>
+                                        4.1 技术难点<br>
+                                        1.	我们主要采用静态网页开发，使用bootstrap前端开发框架、jQuery库、以及动效技术，完成布局排版，使之更加美观，体现主题；<br>
+                                        2、通过javascript图片懒加载技术加快访问速度，当滚动条滚动到附近区域再加载大图片，减少等待时间；<br>
+                                        3、不同模块间使用多种展现方式，减少重复可视化效果。<br>
+                                        4.2 创新点<br>
+                                        1、 通过视窗单位设置容器宽高，通过精准计算实现响应式；<br>
+                                        2、 布局合理，条理清晰，栅格化设计，内容页整洁简约，让浏览者在短时间内能跳转到自己想了解的内容的位置。<br>
+                                        3、 通过javascript图片懒加载技术加快访问速度，当滚动条滚动到附近区域再加载大图片，减少等待时间。<br>
+                                        
+                                        5、网站访问和网页浏览<br>
+                                        （1）网站网址：敬请期待<br>
+                                        （2）网页分辨率：1920×1080px；  <br>
+                                        （3）浏览器：为完美显示网页的可视化效果及兼容视窗单位，建议使用谷歌内核的浏览器。推荐使用谷歌浏览器浏览，其他浏览器推荐使用极速模式或使用IE 11以上版本浏览。<br>
+                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                        </div>
+                        </div><!-- /.modal-content -->
+                    </div><!-- /.modal-dialog -->
+                </div><!-- /.modal -->
+            
+
+        </div>
+
+       <!-- 底部版权部分 -->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="container">
+					<div class="col-md-3 col-md-offset-1 col-sm-6 col-xs-6 " data-aos="zoom-in">
+						<div class="container-fluid about-us">
+							<a data-toggle="modal" data-target="#Modal2" class="about_us">
+                                <i class="fa fa-file-text-o" aria-hidden="true"></i>
+								<h4 class="foot-text">在线查看</h4>
+							</a>
+						</div>
+						<div class="container-fluid about-us">
+							<a href="readme.docx" data-toggle="tooltip" data-placement="top" title="点击下载查看">
+                                <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                                <h4 class="foot-text">readme</h4>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 col-xs-6" data-aos="zoom-in">
+						<h4 class="foot-text">友情链接</h4>
+						<a href="http://www.bootcss.com/" class="about_us" data-toggle="tooltip" data-placement="right" title="我们基于bootstrap3" target="_blank">bootstrap中文网</a><br>
+						<a href="http://www.kepuchina.cn/" class="about_us" target="_blank">科普中国</a><br>
+						<a href="https://cn.vuejs.org/" class="about_us" data-toggle="tooltip" data-placement="right" title="动效技术" target="_blank">move.js</a><br>
+						<a href="http://www.htmleaf.com/" class="about_us" data-toggle="tooltip" data-placement="right" title="渐进式JavaScript 框架" target="_blank">vue.js</a><br>
+						<a href="http://www.fontawesome.com.cn/" class="about_us" data-toggle="tooltip" data-placement="right" title="来自 fontawesome的字体图标" target="_blank">fontawesome</a><br>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-6" data-aos="zoom-in">
+						<div class="container-fluid">
+							<h4 class="foot-text">更多</h4>
+                        <a href="en-index.htm" class="about_us" data-toggle="tooltip" data-placement="left" title="点击切换">英文版</a><br>
+                        <a data-toggle="modal" data-target="#Modal1" class="about_us">参考文献（部分内容来自网络）</a><br>     
+                        <p href="" class="about_us" data-toggle="tooltip" data-placement="left" title="作者：Dirk Reichardt">BGM：When The Light Comes<br></p>
+                        
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </footer>
+    
+    <!-- 返回顶部按钮 -->
+    <div class="turnback" data-aos="zoom-in">
+        <a href="#"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a>
+    </div>
+
+    <!-- 背景音乐 -->
+	<!--控制播放-->
+	<div id="bg_music_btn" data-aos="zoom-in" data-state='1'>
+        <img src="images/index/music_note_big.png" id="music_btn" class="Rotation">
+        <div id="bg_music"></div>
+    </div>
+    
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/lazy-load&scrollup.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/move.min.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/language.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/index.js"></script>
+    <!-- <script src="js/dandelion.js"></script> -->
+</body>
+</html>

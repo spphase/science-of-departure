@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>前进四</title>
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/aos.css">
+    <link rel="stylesheet" href="sub-css/start.css">
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        .media {
+            width: 80%;
+            height: 54vmin;
+            overflow: hidden;
+            margin: 0 auto;
+            margin-bottom: 5vmin;
+            overflow: inherit;
+        }
+
+        .media-middle {
+            width: 60vmin;
+            height: 50vmin;
+        }
+
+        .media-body {
+            width: 60vmin;
+            height: 50vmin;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .media-body h3>p {
+            font-size: 2vmin;
+            margin-top: 2vmin;
+            line-height: 3vmin;
+            
+        }
+
+        .media-body h3{
+            display: block;
+        }
+
+        .center {
+            width: 100%;
+            height: 84%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .media-object {
+            width: 60vmin;
+            height: 45vmin;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .first{
+            margin: 8vmax 0 8vmin 0;
+            
+        }
+        .modal-body p {
+            text-align: center;
+        }
+        .jumbotron {
+            position: relative;
+            background: url(../images/others/pub-body-bg.jpg) no-repeat center center;
+            margin-bottom: 8vmin;
+        }
+        .jumbotron h1,
+        .jumbotron p {
+            /* position: relative; */
+            color: #fff;
+            margin-left: 5vmin;
+            /* float: right; */
+        }
+
+        .img-circle {
+            width: 15vw;
+            height: 15vw;
+            position: absolute;
+            right: 5vmin;
+            top: 5vmin;
+            /* float: left; */
+        }
+
+        .paralasic { 
+            height: 40vmin;
+            background-attachment: fixed;
+            background-size: cover;
+            background-size: 100vw;
+            background-position: center top;
+            background-repeat: no-repeat;
+           
+        }
+        .bg1{
+            background: linear-gradient(rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.25)),url(../images/add/LM-rocket.jpg);
+        }
+        .bg2{
+            background: linear-gradient(rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.25)),url(../images/others/thinking.jpg);
+        }
+        .bg3{
+            background: linear-gradient(rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.25)),url(../images/others/universe2.jpg);
+        }
+    </style>
+</head>
+<body>
+        <!-- 导航栏 -->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="../index.htm"><img class="img-responsive" src="../images/index/logo.png" alt="moss"></i></a>
+            </div>
+            
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="glyphicon glyphicon-home"></i>&nbsp;首页  <span class="caret"></span></a>
+                        <ul class="dropdown-menu" id="home">
+                            <li><a href="../index.htm#banner">返回首页</a></li>
+                            <li><a href="../index.htm#center">启航</a></li>
+                            <li><a href="../index.htm#position">格局定位</a></li>
+                            <li><a href="../index.htm#goals">星辰大海</a></li>
+                            <li><a href="../index.htm#speedup">前进四</a></li>
+                            <li><a href="../index.htm#aboutus">关于我们</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-plane" aria-hidden="true">&nbsp;启程</i> <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="public.html#container">航天史</a></li>
+                                <li><a href="public.html#game">科幻电影加入太空竞赛</a></li>
+                                <li><a href="public.html#develop">齐头并进 </a></li>
+                            </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-globe" aria-hidden="true">&nbsp;格局定位</i> <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                        <li><a href="position.html#sci-fiton">科幻本土化</a></li>
+                        <li><a href="position.html#based-sci">基础科学研究</a></li>
+                        <li><a href="position.html#space-station">基础科学研究</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-paper-plane-o" aria-hidden="true">&nbsp;星辰大海</i> <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                            <li><a href="starsea.html#sci-fiton">建设高工业水准电影体系</a></li>
+                            <li><a href="starsea.html#based-sci">航天新长征</a></li>
+                            <li><a href="starsea.html#based">私营航天公司崛起</a></li> 
+                            </ul>
+                    </li>
+                    <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-rocket" aria-hidden="true">&nbsp;前进四</i> <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#newtrip">航行新长征</a></li>
+                                <li><a href="#think">中国思维思考未来</a></li>
+                                <li><a href="#stars">仰望星空</a></li>
+                                <li><a href="#pub">推进人类命运共同体构建</a></li>
+                            </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="../index.htm#aboutus"><i class="fa fa-users" aria-hidden="true">&nbsp;关于我们</i></a>
+                    </li>
+                    <li class="dropdown english">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <i class="fa fa-language" aria-hidden="true"></i>语言<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#newtrip">中文</a></li>
+                            <li><a href="speedup-en.html">English</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>  
+    <!--========================== 大标题===================== -->
+    <div class="breadcrumb-tow mb-120 ">
+        <div class="breadcrumb-title">
+            <h1 data-aos="zoom-in"><i class="fa fa-plane" aria-hidden="true"></i>&nbsp;前进四</h1>
+            <p></p>
+            <!-- <span></span> -->
+        </div>
+    </div>      
+        <!--背景-->
+        <section id="newtrip" name="background" style="padding-top: 10px">
+                 
+                 <div class="media" data-aos="zoom-in">
+                   <i class="fa fa-quote-left" aria-hidden="true" style="font-size: 4em;color: rgba(173, 179, 179, 0.87)"></i>
+                    <div class="center media-body">
+                        <h3 class="media-heading">航天新长征<p>太空探索的新时代创人类航天文明、铸民族科技丰碑<br>——中国航天科技集团公司<br>
+                        面向未来,航天科技集团正以“模块化、组合化、系列化”的思路,构建“技术先进、成本优 化、产品可靠、测发一流”的新一代长征系列运载火箭型谱,以持续技术创新与基础能力提升等措 施维护“长征”品牌形象、保护“长征”知识产权、做大做强“长征”品牌,不断实现我国运载火 箭水平的新跨越。</p></h3>
+                    </div>    
+                    <i class="fa fa-quote-right" aria-hidden="true" style="display: block;margin-left: 90%;margin-top: -11vmin;font-size: 4em;color: rgba(173, 179, 179, 0.87)"></i>                
+                </div>
+                <div class="paralasic bg1" data-paralasic="0.5"></div>
+
+                <div class="media" id="think">
+                    <i class="fa fa-quote-left" aria-hidden="true" style="font-size: 4em;color: rgba(173, 179, 179, 0.87)"></i>
+                    <div class="media-body center" data-aos="zoom-in">
+                        <!-- <img class="media-object" src="../images/others/thinking.jpg"> -->
+                        <h3 class="media-headi ng">中国智慧<br>
+                            <p>以《流浪地球》为例，他表示，影片讲述的故事本身是有科学背景的，即太阳系寿命有限，未来某一天太阳终将变成红巨星“吞掉”地球。所以就需要提出问题：人类未来何去何从，现在应该做什么？他进一步指出，这其实也正是载人航天的使命——解决未来人类到哪里去的问题。——中国航天科技集团有限公司第五研究院载人航天总体部总设计师，张柏楠</p>
+                            <br>中国方案<br>
+                            <p>中国的科幻文艺，既要警惕跨国资本将在地球上已经无解的资本主义逻辑和矛盾复制、转嫁到外太空的套路，同时也要寻求根植于中国本土的科幻理论、话语资源，打破现有的由20世纪现代主义美学构建的审美范式。——孙佳山，中国艺术研究院</p>
+                            中国力量
+                            <p>太空探索永无止境。从 1970 年 4 月 24 日我国用长征一号运载火箭成功发射东方红一号卫星,到2019年3月10日长征三号乙运载火箭托举中星6C卫星飞向太空,中国长征系列运载火箭实现了300次发射的历史 性跨越。</p></h3>
+                    </div> 
+                    <i class="fa fa-quote-right" aria-hidden="true" style="display: block;margin: -1% 0 5vmin 94%;font-size: 4em;color: rgba(173, 179, 179, 0.87)"></i> 
+                </div>
+                <div class="paralasic bg2" data-paralasic="0.5"></div>
+
+
+                <div class="media" id="stars">
+                    <i class="fa fa-quote-left" aria-hidden="true" style="display: block;margin-top: 3vmin;font-size: 4em;color: rgba(173, 179, 179, 0.87)"></i> 
+                    <div class="media-body center" data-aos="zoom-in">  
+                        <h3 class="media-headi ng">仰望星空<p>
+                            “星空浩瀚无比，探索永无止境”，探索未知世界是人类文明与进步的永恒动力,而人类是渺小的，其存在相对于浩瀚宇宙而言只不过是一瞬间，宇宙学认为宇宙时间箭头从当前指向宇宙热寂结局的方向是时间方向，宇宙最终的结局是从有序变为无序，如果真正到了时间的尽头，一切都是虚无的，没有任何存在。
+                            这就是终极宇宙，人类于宇宙的终极思考</p></h3>
+                        <!-- <img class="media-object" src="../images/others/universe.jpg" alt="..."> -->
+                    </div>
+                    <i class="fa fa-quote-right" aria-hidden="true" style="display: block;margin-left: 94%;margin-top: -11vmin;font-size: 4em;color: rgba(173, 179, 179, 0.87)"></i> 
+                </div>
+                <div class="paralasic bg3" data-paralasic="0.5"></div>
+
+
+               <div class="jumbotron first" id="pub" data-aos="zoom-in">
+                    <h1>推进人类命运共同体构建</h1>
+                    <p>黑洞第一张照片的诞生,集合了全人类的力量...</p>
+                    <p><a class="btn btn-primary btn-lg" href="#" role="button" data-toggle="modal" data-target="#Modal1">了解更多</a></p>
+                    <img data-src="../images/blackhole.jpg" src="../images/loading.gif" alt="" class="img-circle">
+                    <!-- <p style="text-align: center;position: absolute;top: 0;left: 0;bottom: 0;right: 0;width: 100%;height: 100%;content: '';background-color: #596c7580;transition: all 0.2s;cursor: pointer;"></p> -->
+                </div>
+                <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel" id="Modal1">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="gridSystemModalLabel" data-aos="zoom-in">太空领域的开发需要命运共同体</h4>
+                            </div>
+                            <div class="modal-body" data-aos="zoom-in">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p> 给黑洞拍照这个项目早在2017年就已成立，名为“事件视界望远镜项目”（Event Horizon Telescope，简称EHT）。旨在通过联合全球多地的8组天文望远镜，构建一个口径等同于地球直径的“虚拟”望远镜，
+                                            从而收集海量数据，并勾勒出黑洞的模样。EHT的“八个镜头”位于美国、墨西哥、智利、南极等地，而“冲洗”这张照片就花费了两年的时间。<br>
+                                            <img src="../images/loading.gif" data-src="../images/others/big.jpg" alt="" class="img-responsive center-block">
+                                            类似如此庞大的研究项目，需要全人类通力合作，习近平总书记在会见探月工程嫦娥四号任务参研参试人员代表时指出,要为推动世界航天事业发展继续努力,为人类和平利用太空、推动构建人类命运共同体贡献更多中国智慧、中国方案、中国力量。</p>
+                                            
+                                            <img src="../images/loading.gif" data-src="../images/others/blackhole-m.jpg" alt="" class="img-responsive center-block">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                            </div>
+                            </div><!-- /.modal-content -->
+                        </div><!-- /.modal-dialog -->
+                </div><!-- /.modal -->
+               
+        </section>
+        <!--背景-->
+        
+
+    <!-- 底部版权部分 -->
+    <footer>
+            <i class="fa fa-copyright" aria-hidden="true">copyright2019&nbsp;&nbsp;广西大学——MOSS小分队</i>
+    </footer>
+
+    <!-- 返回顶部按钮 -->
+    <div class="turnback" data-aos="zoom-in">
+        <a href="#"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a>
+    </div>
+
+    
+    
+    <script src="../js/jquery-1.11.0.min.js"></script>
+    
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js\dandelion.js"></script>
+    <script src="js/paraLasic.1.1.js"></script>
+    <script src="../js/aos.js"></script><script src="js/lazy-load&scrollup.js"></script>
+    <script>
+        jQuery(window).bind('scroll', function () {
+
+        /* PARALLAX EFFECT ON HEADER */
+        $(window).scroll(function() {
+            var scrollTop = $(window).scrollTop();
+            var paralasicValue = $('.paralasic').attr('data-paralasic');
+            $('.paralasic').css('background-position', 'center top -' + scrollTop * paralasicValue + 'px'); /* 1.8 - default value. Increase less to go stopping the effect */
+        });
+                
+        });
+       var paralasicValue = $('.paralasic').attr('data-paralasic');
+       $('.paralasic').css('background-position', 'center top -' + scrollTop*paralasicValue + 'px');    
+    </script>
+</body>
+</html>
