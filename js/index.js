@@ -156,7 +156,7 @@ $('.ship').click(function () {
             //         }
             //         })
             //     })
-    $("#bg_music").append('<audio id="m_bg_music" src="bgm/when-The-Light-Comes.mp3" autoplay="autoplay" loop="loop"  volume="60" autostart=true ></audio>')
+    $("#bg_music").append('<audio id="m_bg_music" src="fonts/when-The-Light-Comes.mp3" autoplay="autoplay" loop="loop"  volume="60" autostart=true ></audio>')
     $('#bg_music_btn').click(function(){
         var state = $('#bg_music_btn').data('state');
           if(state == '1')//
@@ -170,7 +170,7 @@ $('.ship').click(function () {
               $(this).data('state','1');
               $('#m_bg_music').remove();
               $("#music_btn").addClass('Rotation');
-              $('#bg_music').append('<audio id="m_bg_music" src="bgm/when-The-Light-Comes.mp3" autoplay="autoplay" loop="loop"  volume="60" autostart=true ></audio>');
+              $('#bg_music').append('<audio id="m_bg_music" src="fonts/when-The-Light-Comes.mp3" autoplay="autoplay" loop="loop"  volume="60" autostart=true ></audio>');
             }
       });
 
