@@ -504,8 +504,8 @@ nav,#banner,#position,#goals,#speedup,#aboutus {
     #position .pos-cont {
         width: 100vw!important;
         /* margin-left: 12vmin!important; */
-        height: 18vh!important;
-
+/*         height: 18vh!important;
+ */
     }
     .turnback {
         display: none!important;
