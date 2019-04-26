@@ -173,7 +173,11 @@ nav,#banner,#position,#goals,#speedup,#aboutus {
 
 .navbar-brand {
     padding-top: 9px!important;
-    width: 67px;
+    width: 8vmin;
+}
+
+@media (max-width:425px){
+    .navbar-brand {width: 14vmin;}
 }
 
 .navbar-nav >li {
@@ -499,7 +503,7 @@ nav,#banner,#position,#goals,#speedup,#aboutus {
     }
     #position .pos-cont {
         width: 100vw!important;
-        margin-left: 12vmin!important;
+        /* margin-left: 12vmin!important; */
         height: 18vh!important;
 
     }
@@ -584,7 +588,7 @@ nav,#banner,#position,#goals,#speedup,#aboutus {
 #position {
     position: relative;
     width: 100vw;
-    height: 80vh;
+    /* height: 80vh; */
     padding-top: 2vh;
     margin-top: -2vh;
 
@@ -615,7 +619,7 @@ nav,#banner,#position,#goals,#speedup,#aboutus {
 #position .pos-cont {
     width: 30vw;
     min-width: 30vw;
-    height: 54vh;
+    /* height: 54vh; */
     margin-left: 2vmin;
     border-radius: 3vmin;
     transition: all .2s;
@@ -624,11 +628,6 @@ nav,#banner,#position,#goals,#speedup,#aboutus {
 #position .pos-cont h3 {
     font-weight:400;
     margin: 2vh 0 2vh 0;
-}
-
-@media (max-width:1024px){
-    #position {height: 72vh;}
-    #position .pos-cont {height: 30vh;}
 }
 
 @media screen and (max-width: 425px){
@@ -1250,9 +1249,9 @@ footer {
 }
 
 @media(max-width:425px){
-    #aboutus {
+    /* #aboutus {
         height: 50vh!important;
-    }
+    } */
     #accordion .panel-title a {
         font-size: 13px;
     }
