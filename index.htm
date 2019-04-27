@@ -544,10 +544,11 @@
 
     <!-- 背景音乐 -->
 	<!--控制播放-->
-	<div id="bg_music_btn" data-aos="zoom-in" data-state='1'>
-        <img src="images/index/music_note_big.png" id="music_btn" class="Rotation">
-        <div id="bg_music"></div>
-    </div>
+	<div id="bg_music_btn" data-aos="zoom-in" onclick="playMusic()" data-toggle="tooltip" data-placement="left" title="背景音乐">
+		<audio id="music_btn"autoplay=" autoplay="autoplay" controls="controls" loop="true">
+		    <source src="bgm/When-The-Light-Comes.mp3"/>
+		 </audio>
+    	</div>
     
     <script src="js/jquery-1.11.0.min.js"></script>
     <script src="js/lazy-load&scrollup.js"></script>
