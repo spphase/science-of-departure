@@ -21,6 +21,10 @@ a:hover,a:focus{
 ::-webkit-scrollbar-corner       { /* 6 */ }
 ::-webkit-resizer                {}
 
+@media (max-width:1024px){
+    ::-webkit-scrollbar {background-color: #6c6acd;width: 0; /* 1 */ }
+}
+
 ul, li {
     margin: 0;
     padding: 0;
