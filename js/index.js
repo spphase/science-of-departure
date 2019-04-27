@@ -142,38 +142,19 @@ $('.ship').click(function () {
 //   });
 
 //背景音乐播放脚本===================================
-            //  //加载背景音乐，并自动播放
-            //  $(function(){
-
-            //     var myAudio = $("#bg_music audio")[0];
-            //     $("#bg_music_btn").click(function(){
-            //         if(myAudio.paused) {
-            //             play();
-            //         }
-
-            //         else{
-            //             pause();
-            //         }
-            //         })
-            //     })
-    $("#bg_music").append('<audio id="m_bg_music" src="fonts/when.mp3" autoplay="autoplay" loop="loop"  volume="60" autostart=true ></audio>')
-    $('#bg_music_btn').click(function(){
-        var state = $('#bg_music_btn').data('state');
-          if(state == '1')//
-          {
-              $(this).data('state','0');
-              $("#music_btn").removeClass('Rotation');
-              $("#m_bg_music").remove();
-          }
-          else if(state == '0')
-          {
-              $(this).data('state','1');
-              $('#m_bg_music').remove();
-              $("#music_btn").addClass('Rotation');
-              $('#bg_music').append('<audio id="m_bg_music" src="fonts/when.mp3" autoplay="autoplay" loop="loop"  volume="60" autostart=true ></audio>');
+        //  //加载背景音乐，并自动播放
+            function playMusic() {
+                var player = $("#music_btn")[0]; /*jquery对象转换成js对象*/
+                if (player.paused){ /*如果已经暂停*/
+                    player.play(); /*播放*/
+                }else {
+                    player.pause();/*暂停*/
+                }
             }
-      });
 
+            $("#bg_music_btn").click(function(){
+                $(this).css("left","0");
+            })
  
  $('#modal1 #modal2 #modal3').modal({
     keyboard: false
