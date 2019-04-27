@@ -504,8 +504,8 @@ nav,#banner,#position,#goals,#speedup,#aboutus {
     #position .pos-cont {
         width: 100vw!important;
         /* margin-left: 12vmin!important; */
-/*         height: 18vh!important;
- */
+        height: 18vh!important;
+
     }
     .turnback {
         display: none!important;
@@ -513,10 +513,6 @@ nav,#banner,#position,#goals,#speedup,#aboutus {
     .row {
         margin-right: 0;
         margin-left: 0;
-    }
-    #bg_music_btn {
-        right: 20vmin!important;
-        transform: scale(0.8);-o-transform: scale(0.8);-moz-transform: scale(0.8);-webkit-transform: scale(0.8);
     }
   }
 
@@ -1263,15 +1259,54 @@ footer {
 /* ======================背景音乐============= */
 #bg_music_btn {
     position: fixed;
-    right: 7vw;
-    top: 10vh;
+    /* right: -10%; */
+    left:-16%;
+    bottom: 20vw;
     z-index: 50;
     visibility: visible;
+    transition: all .2s;
 }
 
+
+
 #music_btn {
-	position: fixed;
-	z-index: 50;
+    position: fixed;
+    z-index: 50;
+    float: left;
+    /* right: -10%; */
+}
+
+#bg_music_btn:hover {
+    left: 0;
+    position: fixed;
+    bottom: 20vw;
+    z-index: 50;
+    visibility: visible;
+    transition: all .2s;
+}
+
+@media (max-width:1024px){
+    #bg_music_btn {
+        position: fixed;
+        /* right: -10%; */
+        left:-20%;
+        bottom: 20vw;
+        z-index: 50;
+        visibility: visible;
+        transition: all .2s;
+    }
+}
+
+@media (max-width:425px){
+    #bg_music_btn {
+        position: fixed;
+        /* right: -10%; */
+        left:-55%;
+        bottom: 20vw;
+        z-index: 50;
+        visibility: visible;
+        transition: all .2s;
+    }
 }
 
 @keyframes rotation{
