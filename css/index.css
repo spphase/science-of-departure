@@ -624,6 +624,7 @@ nav,#banner,#position,#goals,#speedup,#aboutus {
     margin-left: 2vmin;
     border-radius: 3vmin;
     transition: all .2s;
+    z-index: 99;
 }
 
 #position .pos-cont h3 {
