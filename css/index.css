@@ -595,6 +595,7 @@ nav,#banner,#position,#goals,#speedup,#aboutus {
     text-align: center;
     color: #fff;
     line-height: 30px;
+    z-index: 99;
 }
 
 .position-box {
